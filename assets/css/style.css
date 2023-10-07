@@ -416,3 +416,270 @@ height: 146.781px;
 /* Telefon */
 
 /* End of "О курсе" Desktop CSS  Part*/
+
+
+
+.p1{
+    width: 987px;
+height: 93px;
+flex-shrink: 0;
+color: #000;
+font-family: Roboto Slab;
+font-size: 55px;
+font-style: normal;
+font-weight: 700;
+line-height: 101.385%; /* 55.762px */
+/* margin-top: 91px; */
+margin-left: 83px;
+margin-bottom: 34px;
+padding-top: 58px;
+padding-bottom: 20px;
+}
+.container{
+    margin: 0 84px;
+}
+.big-div{
+    background-color:#EFEFEF ;
+     width: 1440px; 
+height: 677px;
+flex-shrink: 0;
+}
+.p2{
+    width: 791px;
+height: 429px;
+flex-shrink: 0;
+border-radius: 30px;
+background: #FFF;
+box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.25);
+margin-left: 92px;
+margin-top: 76px;}
+/* .p3{
+    width: 700px;
+height: 203px;
+flex-shrink: 0;
+color: #000;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%;
+padding: 40px 46px 50px 45px;
+margin-bottom: 33px;
+} */
+.p3{
+    color: #000;
+    font-family: 'Roboto';
+    font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%;
+padding: 40px 14px 10px 13px;
+margin-bottom: 33px;
+    width: 92%;
+    margin: 0 auto;
+
+}
+.photo{
+    width: 250px;
+height: 169px;
+flex-shrink: 0;
+    flex-shrink: 0;
+}
+.name{
+    width: 353px;
+height: 72px;
+flex-shrink: 0;
+color: #000;
+font-family: Roboto Slab;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: 101.385%; /* 30.415px */
+/* padding: 50px 192px 99px 30px; */
+}
+.social{
+    width: 32px;
+height: 31px;
+flex-shrink: 0;
+}
+.user-card-info{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: -9px;
+
+}
+@media screen and (min-width: 992px) and (max-width: 1279px){
+    .p1{
+    /* width: 571.638px; */
+    /* height: 53.863px; */
+    font-size: 58px;
+}
+.p3{
+    font-size: 22px;
+    width: 88% !important;
+    margin-left: 26px;
+    margin-right: 26px;
+    font-family: 'Roboto', sans-serif;
+    
+
+}
+.photo{
+    width: 149.042px;
+    height: 138px;
+    margin-left: 23px;
+    margin-top: 5px;
+}
+.social{
+    margin-left: 5px;
+    width: 28.533px;
+    height: 23px;
+}
+.name{
+    
+    font-family: 'Roboto Slab', serif;
+    width: 268.446px;
+   margin-left: 5px;
+    font-size: 24px;
+}
+.p2{
+    
+    width: 58%;
+    border-radius: 17.375px;
+    box-shadow: 0.57917px 0.57917px 11.58333px 0px rgba(0, 0, 0, 0.25);
+    height: 400px !important;
+}
+.user-info{
+    margin-left: 17px;
+}
+.user-card-info{
+    margin-left: 5px;
+}
+}
+@media screen and (min-width: 320px) and (max-width: 991px){
+    .p1{
+        font-size: 26px;
+        width: 248px;
+        height: 20px;
+        margin-left: 92px;
+        margin-top: -17px;
+        
+    }
+    .user-info{
+        margin-left: 35px;
+    }
+    .p2{
+        width: 80%;
+        height: 239px;
+        margin: 63px auto;
+    }
+    .p3{
+        width: 83%;
+height: 111.01px;
+flex-shrink: 0;
+
+font-size: 10px;
+font-weight: 400;
+line-height: 150%; /* 15px */
+padding-top: 20px;
+    }
+    .photo{
+        width: 80px;
+height: 84px;
+flex-shrink: 0;
+    }
+.name{
+    width: 164.488px;
+    height: 32.729px;
+    flex-shrink: 0; 
+    font-size: 14px;
+font-style: normal;
+font-weight: 700;
+}
+.social{
+    width: 14.911px;
+height: 17.197px;
+flex-shrink: 0;
+}
+.user-card-info{
+    margin-top: 36px;
+    margin-left: -8px;
+}
+.user-img-1{
+    margin-left: 22px;
+}
+.card-section-content-container{
+    width: 100%;
+ margin: 0 auto !important;
+}
+.big-div{
+    width: 100%; 
+    
+
+}
+.photo{
+    margin-left: 38%;
+}
+
+
+}
+@media screen and (min-width: 650px) and (max-width: 991px){
+.p2{
+    width: 73%;
+}
+.p1{
+    width: 57%;   
+}
+}
+@media screen and (min-width: 320px) and (max-width: 520px){
+    .p2{
+    width: 60%;
+}
+.p1{
+    width: 72%;   
+}
+.user-card-info{
+    margin-top: 28px;
+    margin-left: -7px;
+}
+.p3{
+    font-size: 9px;
+}
+.user-card-info{
+    margin-top: 49px;
+    margin-left: -33px;
+}
+.name{
+    font-size: 10px;
+}
+.social{
+    width: 14px;
+    height:18px;
+    margin-top: -28px;
+
+}
+.photo{
+    width: 63px;
+    height: 83px;
+}
+.user-card-info{
+    margin-left: -24px;
+}
+}
+@media screen and (min-width: 320px) and (max-width: 380px){
+    .p1{
+        margin-left: 53px;
+    }
+    .p3{
+        font-size: 7px;
+    }
+    .user-card-info{
+    margin-left: -28px;
+}
+.user-info {
+    margin-left: 24px;
+}
+
+    
+
+}
