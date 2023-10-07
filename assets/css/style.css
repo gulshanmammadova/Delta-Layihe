@@ -416,3 +416,568 @@ height: 146.781px;
 /* Telefon */
 
 /* End of "О курсе" Desktop CSS  Part*/
+
+
+
+
+/* footer */
+.hero{
+    background-color: #9DC9C8;
+    padding: 120px 84px;
+}
+
+
+ .hero h3{
+    margin: 70px 0;
+    color: #000;
+font-family: Roboto Slab;
+font-size: 55px;
+font-style: normal;
+font-weight: 700;
+line-height: 101.385%; /* 55.762px */
+<<<<<<< HEAD
+}
+.nuh-span{
+    color: #000;
+font-family: Roboto;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: 101.385%; /* 25.346px */
+}
+.nuh{
+    margin-bottom: 90px;
+color: #000;
+font-family: Roboto;
+font-size: 80px;
+font-style: normal;
+font-weight: 400;
+line-height: 101.385%; /* 81.108px */
+}
+.parent{
+    display: flex;
+}
+.left1{
+    width: 293px;
+    margin-right: 6%;
+}
+.right1{
+    width: 293px;
+
+}
+ .parent h5{
+    margin-bottom: 10px;
+    color: #000;
+font-family: Roboto;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: 101.385%; /* 25.346px */
+}
+.nuhu{
+    color: #000;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 101.385%; /* 18.249px */
+}
+.hero2{
+    background-color: black;
+    padding: 40px 84px;
+    color: white;
+    
+}
+.n20{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.phone{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 101.385%; /* 25.346px */
+   
+}
+.mail{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 101.385%; /* 25.346px */
+
+}
+.logo-mobile-white{
+    margin: 10px;
+}
+.logo-mobile-black{
+display: block;
+}
+.logo-mobile-instagram{
+    margin: 10px 10px 10px 0;
+}
+.logo-mobile-phone{
+    margin: 0  10px 0 0;
+}
+.contact{
+    margin-bottom: 10px;
+}
+.sin{
+    color: #FFF;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 101.385%; /* 18.249px */
+margin-top: 180px;
+}
+@media screen and (min-width:992px) and (max-width:1279px) {
+    .hero{
+        background-color: #9DC9C8;
+        padding: 100px 75px;
+    }
+    .hero2{
+        background-color: black;
+        padding: 35px 75px;
+        color: white;}
+        .hero h3{
+    margin: 45px 0;
+    font-size: 32px;
+    }
+    .nuh-span{
+    font-size: 14px;
+    }
+    .nuh{
+        margin-bottom: 50px;
+    font-size: 46px;
+    }
+    .parent h5{
+        margin-bottom: 6px;
+    font-size: 15px;
+    }
+    .nuhu{
+    font-size: 10px;
+    }
+    .phone{
+        font-size: 14px;
+        width: 59px;
+    }
+    .mail{
+        font-size: 14px;
+    }
+    .left1{
+        width: 163px;
+    }
+    .right1{
+        width: 163px;
+    }
+    .sin{
+    font-size: 10px;
+    margin-top: 100px;
+    }
+    .logo-mobile-white{
+        margin: 10px;
+        width: 19.113px;
+        height: 19.113px;
+        flex-shrink: 0;
+        margin: 0 6px 6px 0;
+    }
+    .logo-mobile-black{
+        width: 66.604px;
+        height: 39.383px;
+        flex-shrink: 0;
+    }
+    .logo-mobile-instagram{
+        margin: 6px 6px 6px 0;
+        width: 19.113px;
+        height: 19.113px;
+        flex-shrink: 0;
+    }
+    .logo-mobile-phone{
+    
+        width: 19.113px;
+        flex-shrink: 0;
+        margin-right: 6px;
+    }
+    .contact{
+        margin-bottom: 7px;
+        height: 19.113px;
+        flex-shrink: 0;
+    }
+}
+@media screen and (min-width:320px) and (max-width:991px) {
+    .hero{
+        background-color: #9DC9C8;
+        padding: 40px 40px 80px 40px;
+    }
+    .hero2{
+        background-color: black;
+        padding: 30px 40px;
+        color: white;}
+        .hero h3{
+        margin: 38px 0;
+        font-size: 26px;
+        width: 224px;
+        }
+        .nuh-span{
+        font-size: 12px;
+        }
+        .nuh{
+            margin-bottom: 48px;
+        font-size: 37px;
+        }
+        .parent h5{
+            margin-bottom: 5px;
+            
+        font-size: 12px;
+        }
+        .nuhu{
+        font-size: 10px;
+        }
+        .phone{
+            font-size: 12px;
+          
+        }
+        .mail{
+            font-size: 12px;
+        }
+        .left1{
+            width:138px;
+            height: 30px;
+        }
+        .right1{
+            width:138px;
+            height: 30px;
+        }
+        .sin{
+        font-size: 10px;
+        margin-top: 75px;
+        }
+        .logo-mobile-white{
+            width: 15.377px;
+            height: 15.377px;
+            flex-shrink: 0;
+            margin:0 4px 4px 0;
+        }
+        .logo-mobile-black{
+            width: 53.587px;
+            height: 31.686px;
+            flex-shrink: 0;
+        }
+        .logo-mobile-instagram{
+            width: 15.377px;
+            height: 15.377px;
+            flex-shrink: 0;
+            margin:10px 4px 4px 0;
+        }
+        .logo-mobile-phone{
+            width: 15.377px;
+            flex-shrink: 0;
+            margin-right:4px;
+        }
+        .contact{
+           margin-bottom: -4px;
+           height: 26px;
+        }
+    .n20{
+        display: block;
+    }
+    .n2{
+        margin-top: 50px;
+    }
+}
+@media screen and (min-width:320px) and (max-width:376px){
+    .hero{
+       
+        padding: 40px 32px 80px 32px;
+    }
+    .hero2{
+        padding: 30px 32px;
+      }
+      .parent h5{
+        font-size: 10px;
+      }
+    .nuhu{
+        font-size:9px;
+    }
+    .left1{
+width: 123px;
+margin-right: 4%;
+    }
+    .right1{
+        width: 125px;
+    }
+}
+/* footer */
+
+/* margin-top: 91px; */
+
+.p1{
+    width: 987px;
+height: 93px;
+flex-shrink: 0;
+color: #000;
+font-family: Roboto Slab;
+font-size: 55px;
+font-style: normal;
+font-weight: 700;
+line-height: 101.385%; /* 55.762px */
+/* margin-top: 91px; */
+margin-left: 83px;
+margin-bottom: 34px;
+padding-top: 58px;
+padding-bottom: 20px;
+}
+.container{
+    margin: 0 84px;
+}
+.big-div{
+    background-color:#EFEFEF ;
+     width: 1440px; 
+height: 677px;
+flex-shrink: 0;
+}
+.p2{
+    width: 791px;
+height: 429px;
+flex-shrink: 0;
+border-radius: 30px;
+background: #FFF;
+box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.25);
+margin-left: 92px;
+margin-top: 76px;}
+/* .p3{
+    width: 700px;
+height: 203px;
+flex-shrink: 0;
+color: #000;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%;
+padding: 40px 46px 50px 45px;
+margin-bottom: 33px;
+} */
+.p3{
+    color: #000;
+    font-family: 'Roboto';
+    font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%;
+padding: 40px 14px 10px 13px;
+margin-bottom: 33px;
+    width: 92%;
+    margin: 0 auto;
+
+}
+.photo{
+    width: 250px;
+height: 169px;
+flex-shrink: 0;
+    flex-shrink: 0;
+}
+.name{
+    width: 353px;
+height: 72px;
+flex-shrink: 0;
+color: #000;
+font-family: Roboto Slab;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: 101.385%; /* 30.415px */
+/* padding: 50px 192px 99px 30px; */
+}
+.social{
+    width: 32px;
+height: 31px;
+flex-shrink: 0;
+}
+.user-card-info{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: -9px;
+
+}
+@media screen and (min-width: 992px) and (max-width: 1279px){
+    .p1{
+    /* width: 571.638px; */
+    /* height: 53.863px; */
+    font-size: 58px;
+}
+.p3{
+    font-size: 22px;
+    width: 88% !important;
+    margin-left: 26px;
+    margin-right: 26px;
+    font-family: 'Roboto', sans-serif;
+    
+
+}
+.photo{
+    width: 149.042px;
+    height: 138px;
+    margin-left: 23px;
+    margin-top: 5px;
+}
+.social{
+    margin-left: 5px;
+    width: 28.533px;
+    height: 23px;
+}
+.name{
+    
+    font-family: 'Roboto Slab', serif;
+    width: 268.446px;
+   margin-left: 5px;
+    font-size: 24px;
+}
+.p2{
+    
+    width: 58%;
+    border-radius: 17.375px;
+    box-shadow: 0.57917px 0.57917px 11.58333px 0px rgba(0, 0, 0, 0.25);
+    height: 400px !important;
+}
+.user-info{
+    margin-left: 17px;
+}
+.user-card-info{
+    margin-left: 5px;
+}
+}
+@media screen and (min-width: 320px) and (max-width: 991px){
+    .p1{
+        font-size: 26px;
+        width: 248px;
+        height: 20px;
+        margin-left: 92px;
+        margin-top: -17px;
+        
+    }
+    .user-info{
+        margin-left: 35px;
+    }
+    .p2{
+        width: 80%;
+        height: 239px;
+        margin: 63px auto;
+    }
+    .p3{
+        width: 83%;
+height: 111.01px;
+flex-shrink: 0;
+
+font-size: 10px;
+font-weight: 400;
+line-height: 150%; /* 15px */
+padding-top: 20px;
+    }
+    .photo{
+        width: 80px;
+height: 84px;
+flex-shrink: 0;
+    }
+.name{
+    width: 164.488px;
+    height: 32.729px;
+    flex-shrink: 0; 
+    font-size: 14px;
+font-style: normal;
+font-weight: 700;
+}
+.social{
+    width: 14.911px;
+height: 17.197px;
+flex-shrink: 0;
+}
+.user-card-info{
+    margin-top: 36px;
+    margin-left: -8px;
+}
+.user-img-1{
+    margin-left: 22px;
+}
+.card-section-content-container{
+    width: 100%;
+ margin: 0 auto !important;
+}
+.big-div{
+    width: 100%; 
+    
+
+}
+.photo{
+    margin-left: 38%;
+}
+
+
+}
+@media screen and (min-width: 650px) and (max-width: 991px){
+.p2{
+    width: 73%;
+}
+.p1{
+    width: 57%;   
+}
+}
+@media screen and (min-width: 320px) and (max-width: 520px){
+    .p2{
+    width: 60%;
+}
+.p1{
+    width: 72%;   
+}
+.user-card-info{
+    margin-top: 28px;
+    margin-left: -7px;
+}
+.p3{
+    font-size: 9px;
+}
+.user-card-info{
+    margin-top: 49px;
+    margin-left: -33px;
+}
+.name{
+    font-size: 10px;
+}
+.social{
+    width: 14px;
+    height:18px;
+    margin-top: -28px;
+
+}
+.photo{
+    width: 63px;
+    height: 83px;
+}
+.user-card-info{
+    margin-left: -24px;
+}
+}
+@media screen and (min-width: 320px) and (max-width: 380px){
+    .p1{
+        margin-left: 53px;
+    }
+    .p3{
+        font-size: 7px;
+    }
+    .user-card-info{
+    margin-left: -28px;
+}
+.user-info {
+    margin-left: 24px;
+}
+
+    
+
+}
+>>>>>>> ec0d776a4efd11d2898d7f999f0c02ccb731b3f4
