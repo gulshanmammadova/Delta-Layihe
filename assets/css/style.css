@@ -420,6 +420,7 @@ height: 146.781px;
 
 
 
+
 /* footer */
 .hero{
     background-color: #9DC9C8;
@@ -981,3 +982,527 @@ flex-shrink: 0;
 
 }
 
+
+.all-card-section-cover{
+    width: 100%;
+}
+.container{
+    margin-left: 84px;
+    margin-right: 84px;
+}
+.section-title{
+    margin-left: 27px;
+    color: #000;
+font-family: Roboto Slab;
+font-size: 55px;
+font-style: normal;
+font-weight: 700;
+line-height: 101.385%; /* 55.762px */
+margin-bottom: 94px;
+}
+.course-card{
+    width: 399px;
+    height: 328px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 13px 0px gray;
+    margin-bottom: 41px;
+}
+.centered-course-card{
+    margin: 0 4%;
+
+}
+.course-number{
+    color: #000;
+font-family: Roboto;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: 130%; /* 39px */
+padding-bottom: 32px;
+padding-top: 11px;
+margin-left: 19px;
+}
+.course-date{
+    color: #000;
+font-family: Roboto;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%; /* 32.5px */
+padding-bottom:23px ;
+margin-left: 19px;
+width: 58%;
+
+}
+.all-card{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Roboto', sans-serif;
+}
+.last-card .course-number{
+padding-bottom: 5px !important;
+}
+@media screen and (min-width : 1290px) {
+    .all-card{
+        width: 1302px;
+        margin: 0 auto;
+    }
+}
+/* End of "Программа курса" Desktop CSS  Part*/
+@media screen and (min-width : 1275px) 
+and 
+(max-width : 1468px) {
+    .centered-course-card{
+        margin: 0 2%;
+    
+    }
+    .course-card img{
+        width: 100%;
+    }
+    .all-card{
+        margin: 0 auto;
+    width: 847px;
+    }
+.course-card{
+    width: 31%;
+}
+.course-date{
+    width: 61%;
+}
+}
+@media screen and (min-width : 1219px) 
+and 
+(max-width : 1254px) {
+    .centered-course-card{
+        margin: 0 1%;
+    
+    
+    }
+    .course-card img{
+        width: 100%;
+    }
+    .course-card {
+        width: 355px;
+    }
+    .course-date{
+        width: 65%;
+    }
+ 
+}
+@media screen and (min-width : 1255px) 
+and 
+(max-width : 1275px) {
+    .centered-course-card{
+        margin: 0 1%;
+    
+    
+    }
+    .course-card img{
+        width: 100%;
+    }
+    .course-card {
+        width: 353px;
+    }
+    .course-date{
+        width: 65%;
+    }
+ 
+}
+@media screen and (min-width : 1218px) 
+and 
+(max-width : 1251px) {
+    .centered-course-card{
+        margin: 0 1%;
+    
+    
+    }
+    .course-card img{
+        width: 100%;
+    }
+    .course-card {
+        width: 343px;
+    }
+    .course-date{
+        width: 69%;
+    }
+ 
+}
+/* Start of "Программа курса" Tablet CSS  Part*/
+@media screen and (min-width : 992px) 
+and 
+(max-width : 1219px) {
+    .centered-course-card{
+        margin: 0 9%;
+    
+    }
+   .container{
+    margin: 0  48px;
+   }
+   .section-title{
+    font-size: 32px;
+    line-height: 101.385%; /* 32.443px */
+   }
+   .course-card{
+    width: 231.088px;
+    height: 189.967px;
+border-radius: 17.4px;
+   }
+   .course-card img{
+    width: 231.088px;
+
+height: 92.667px;
+   }
+   .course-date{
+    font-size: 14px;
+    padding-bottom: 13px;
+    line-height: 130%; /* 18.2px */
+
+   }
+   .course-number{
+    margin-top: 0px !important;
+    font-size: 17px;
+    line-height: 130%; /* 22.1px */
+    padding-bottom: 18px;
+   }
+ .section-title{
+    margin-bottom: 55px;
+ }
+ .last-card .course-number{
+padding: 0.8px !important;
+ }
+}
+/* End of "Программа курса" Tablet CSS  Part*/
+/* Start of "Программа курса" Mobile CSS  Part*/
+
+@media screen and (min-width : 320px) 
+and 
+(max-width : 991px) {
+    .all-card{
+        flex-direction: column;
+        align-items: center;
+    }
+.container{
+    margin:0 36px;
+}
+.section-title{
+    font-size: 26px;
+    margin-bottom: 36px;
+line-height: 101.385%; /* 26.36px */
+}
+.course-card img{
+    width: 186.923px;
+height: 74.556px;
+margin-bottom: 5px;
+}
+.course-date {
+    font-size: 12px;
+    line-height: 130%; /* 15.6px */
+    margin-bottom: 10px;
+    width: 60%;
+}
+.course-number{
+    margin-top: 0px !important;
+    font-size: 14px;
+    margin-bottom: 14px;
+    margin-bottom: 4px  !important;
+    padding-bottom: 0 !important;
+    line-height: 130%; /* 18.2px */
+}
+.course-card {
+    width: 186.923px;
+height: 173.839px;
+border-radius: 14px;
+margin-bottom: 24px !important;
+}
+.lessons{
+    width: 30% !important;
+}
+
+}
+/* End of "Программа курса" Mobile CSS  Part*/
+/* Start of "О курсе" Desktop CSS  Part*/
+
+#o-course-section .page-header{
+  
+    width: 77%;
+    align-items: center;
+    margin: 0px auto;
+}
+#o-course-section .course-content{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 94px;
+    justify-content: space-between;
+}
+#o-course-section .left{
+    width: 55%;
+}
+#o-course-section .main-text{
+    width: 96%;
+}
+#o-course-section .little-text{
+    width: 92%;
+}
+#o-course-section p{
+color: #000;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 36px */
+}
+#o-course-section h1.title{
+    width: 100%;
+    color: #000;
+font-family: Roboto Slab;
+font-size: 55px;
+font-style: normal;
+font-weight: 700;
+line-height: 101.385%; /* 55.762px */
+
+margin-top: 91px;
+margin-bottom: 19px;
+}
+#o-course-section .page-header img{
+    width: 314px;
+height: 315px;
+}
+#o-course-section .page-footer img{
+width: 232px;
+height: 203px;
+}
+#o-course-section .page-footer {
+    width: 100%;
+    display: flex;
+    /* margin: 0 auto; */
+    align-items: center;
+    justify-content: space-between;
+  
+}
+#o-course-section .lessons{
+    width: 17%;
+    margin-left: auto;
+}
+#o-course-section .lessons p.first-p{
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 32.5px */
+}
+/* Tablet */
+@media screen and (min-width: 992px)
+ and 
+ (max-width: 1279px){
+#o-course-section h1.title{
+    font-size: 32px;
+    line-height: 101.385%; /* 32.443px */
+}
+#o-course-section .main-text{
+    width: 84%;
+    font-size: 14px;
+    line-height: 150%; /* 21px */
+
+}
+#o-course-section .right img{
+    width: 181.858px;
+height: 182.438px;
+}
+#o-course-section .little-text{
+    width: 84%;
+}
+#o-course-section .page-footer{
+    margin-left: 0;
+}
+#o-course-section .page-footer .img-box {
+    width: 134.367px;
+height: 117.571px;
+}
+
+#o-course-section .lessons p{
+    font-size: 11px;
+    line-height: 130%; /* 19.5px */
+}
+#o-course-section .lessons p.first-p{
+    line-height: 130%; /* 19.5px */
+    font-size: 15px;
+
+}
+#o-course-section .lessons{
+    margin-left: 0;
+    width: 15%;
+}
+  }
+
+
+
+/* Tablet */
+/* Telefon */
+@media screen and (min-width: 320px)
+and (max-width: 991px)
+ {
+  #o-course-section .course-content{
+    display: block;
+  }  
+  #o-course-section .title{
+    font-size: 26px;
+line-height: 101.385%; /* 26.36px */
+
+  }
+  #o-course-section .main-text{
+    font-size: 12px;
+line-height: 150%; /* 18px */
+  }
+ #o-course-section .page-header img{
+    width: 146.315px;
+height: 146.781px;
+  }
+#o-course-section .img-box{
+    display: none;
+}
+#o-course-section .little-text{
+    margin-bottom: 56px;
+}
+#o-course-section .right{
+    width: 30%;
+    margin: 0 auto;
+}
+#o-course-section .left{
+    width: 100%;
+}
+#o-course-section .lessons {
+    width: 26%;
+    margin-right: 34px;
+    margin-bottom: 34px;
+    margin-left: 0;
+}
+#o-course-section .page-footer{
+    flex-wrap: wrap;
+}
+#o-course-section .lessons p{
+    font-size: 10px;
+}
+#o-course-section .lessons p.first-p {
+    font-size: 12px;
+}
+ }
+/* Telefon */
+
+/* End of "О курсе" Desktop CSS  Part*/
+.l1, .l2, .l3, .l4{
+    font-family: 'Roboto', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.block1{
+    display: flex;
+}
+.l1, .l2, .l3{
+    list-style-type: none;
+}
+.l1 :first-child, .l2 :first-child, .l3 :first-child{
+    color: #1E4681;
+    font-size: 25px;
+}
+.l1 :nth-child(2), .l2 :nth-child(2), .l3 :nth-child(2){
+    font-weight: 400;
+    font-size: 18px;
+}
+.l1 :nth-child(2), .l2 :nth-child(2){
+    margin-top: 2%;
+}
+.l2, .l3{
+    margin-left: 110px;
+}
+.l4 li{
+    font-size: 24px;
+    padding: 0.5%;
+}
+.head1, .head2{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+}
+.head1{
+    margin-bottom: 6.5%;
+    font-size: 55px;
+}
+.head2{
+    font-size: 55px;
+    margin-bottom: 3%;
+    margin-top: 13%;
+}
+.format{
+    margin-bottom: 6.5%;
+    margin-top: 6%;
+    margin-left: 8%;
+}
+.what{
+    margin-left: 8%;
+    margin-bottom: 14%;
+}
+.l1, .l2, .l3{
+    width: 20%;
+}
+.l4{
+    width: 46%;
+}
+.l4 :nth-child(3){
+    width: 89%;
+}
+@media screen and (min-width: 992px) and (max-width: 1279px){
+    .l1 :nth-child(2), .l2 :nth-child(2), .l3 :nth-child(2){
+        font-size: 11px !important;
+    }
+    .l1 :first-child, .l2 :first-child, .l3 :first-child{
+        font-size: 15px !important;
+    }
+    .l4 li{
+        font-size: 14px !important;
+    }
+    .head1, .head2{
+        font-size: 32px !important;
+        
+    }
+    .l4{
+        width: 34%;
+    }
+    .l1 :nth-child(2){
+        width: 62%;
+    }
+    .l2 :nth-child(2){
+        width: 76%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 992px) {
+    .block1{
+      display: block;
+    }
+    .l2, .l3{
+        margin-left: 0%;
+    }
+    .l1 :nth-child(2), .l2 :nth-child(2), .l3 :nth-child(2){
+        font-size: 10px !important;
+    }
+    .l4 li, .l1 :first-child, .l2 :first-child, .l3 :first-child{
+        font-size: 12px !important;
+    }
+    .head1, .head2{
+        font-size: 26px !important;
+    }
+    .l2, .l3{
+        margin-top: 4%;
+    }
+    .l2 :nth-child(2){
+        width: 97%;
+    }
+    .l4{
+        width: 34%;
+    }
+    .l4 :nth-child(3){
+        width: 95%;
+    }
+
+}
