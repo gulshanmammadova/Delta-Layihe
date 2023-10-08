@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-  <link rel="stylesheet" href="./assets/css/style.css">  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Option 1: Include in HTML -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<link rel="icon" href="data:image/png;base64,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">
-    <title>Delta-Layihe</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="icon"
+    href="data:image/png;base64,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">
+  <title>Delta-Layihe</title>
 </head>
+
 <body>
   <header class="header">
     <div class="container">
@@ -36,8 +42,8 @@
               кинопроцессе
             </p>
           </div>
-       <div class="man-img">   <img src="./assets/images/man.svg" alt="intro-img" class="intro-container__img" />
-       </div>
+          <div class="man-img"> <img src="./assets/images/man.svg" alt="intro-img" class="intro-container__img" />
+          </div>
         </div>
         <div class="intro-bottom">
           <p class="intro-bottom__text">
@@ -49,215 +55,220 @@
         </div>
       </div>
     </section>
-  <section id="o-course-section">
-    <div class="page-header ">
+    <section id="o-course-section">
+      <div class="page-header ">
 
-      <div class="course-content">
+        <div class="course-content">
           <h1 class="title">О курсе</h1>
           <div class="left">
 
-            
-              <p class="main-text">Порой фильмы устроены сложнее четырёхтомных романов. Но читать книги учат со
-                  школы, а смотреть кино — нет. При этом без подготовки бывает трудно получить от просмотра
-                  удовольствие.</p>
-              <br> <br>
-              <p class="main-text little-text">На курсе из 8 занятий научимся быть осознанными зрителями. Познакомимся с
-                  этапами кинопроизводства и узнаем, как смотреть кино глазами сценариста, режиссёра и монтажёра.
-                  Разберёмся в особенностях жанров и рассмотрим важнейшие картины, от «Гражданина Кейна» до
-                  «Матрицы».</p>
+
+            <p class="main-text">Порой фильмы устроены сложнее четырёхтомных романов. Но читать книги учат со
+              школы, а смотреть кино — нет. При этом без подготовки бывает трудно получить от просмотра
+              удовольствие.</p>
+            <br> <br>
+            <p class="main-text little-text">На курсе из 8 занятий научимся быть осознанными зрителями. Познакомимся с
+              этапами кинопроизводства и узнаем, как смотреть кино глазами сценариста, режиссёра и монтажёра.
+              Разберёмся в особенностях жанров и рассмотрим важнейшие картины, от «Гражданина Кейна» до
+              «Матрицы».</p>
           </div>
           <div class="right"><img src="./assets/images/Big-cameraman-img1.svg" alt="cameraman-1"></div>
-      </div>
-      <div class="page-footer">
+        </div>
+        <div class="page-footer">
           <div class="img-box"><img src="./assets/images/Cameraman-img-1-2.svg" alt="cameraman-2"></div>
           <div class="lessons">
-              <p class="first-p">8 занятий </p>
-              <p>Для погружения
-                  в кинематограф</p>
+            <p class="first-p">8 занятий </p>
+            <p>Для погружения
+              в кинематограф</p>
           </div>
           <div class="lessons">
-              <p class="first-p">2 часа</p>
-              <p>Длительность
-                  каждого занятия</p>
+            <p class="first-p">2 часа</p>
+            <p>Длительность
+              каждого занятия</p>
           </div>
           <div class="lessons">
-              <p class="first-p">3 недели</p>
-              <p>Длительность
-                  курса</p>
+            <p class="first-p">3 недели</p>
+            <p>Длительность
+              курса</p>
           </div>
+        </div>
       </div>
-  </div>
- 
-  </section>
-  <section class="format">
-    <h1 class="head1">Формат занятий</h1>
-    <div class="block1">
-            
-      <ul class="l1">
-        <li>Вебинары</li>
-        <li>Занятия проходят онлайн в режиме вебинаров с преподавателем</li>
-      </ul>
-      <ul class="l2">
-        <li>Доступ навсегда</li>
-        <li>Если вы не успели на вебинар, всегда можете посмотреть запись в личном кабинете</li>
-      </ul>
-      <ul class="l3">
-        <li>Общение</li>
-        <li>Вы можете задать вопрос<br>преподавателю на занятии</li>
 
-      </ul>
-    </div>
-  </section>
-      
+    </section>
+    <section class="format">
+      <h1 class="head1">Формат занятий</h1>
+      <div class="block1">
 
-  
-      <section class="what">
-        <h1 class="head2">Что узнаем</h1>
-        <ul class="l4">
-          <li>Кто чем занят в съёмочной группе;</li>
-          <li>На какие этапы делится кинопроизводство;</li>
-          <li>Как выглядит сценарий фильма и как он меняется
-           по ходу съёмок;</li>
-          <li>Какими методами режиссёры заставляют нас смеяться, плакать и грустить;</li>
-          <li>Как построение кадра, музыка и свет помогают считывать заложенные в фильм смыслы;</li>
-          <li>Какие жанры есть в кино и как от них зависит работа операторов, осветителей и монтажёров;</li>
-          <li> Как, зная всё это, понимать, о чем фильм.</li>
+        <ul class="l1">
+          <li>Вебинары</li>
+          <li>Занятия проходят онлайн в режиме вебинаров с преподавателем</li>
         </ul>
-      </section>
+        <ul class="l2">
+          <li>Доступ навсегда</li>
+          <li>Если вы не успели на вебинар, всегда можете посмотреть запись в личном кабинете</li>
+        </ul>
+        <ul class="l3">
+          <li>Общение</li>
+          <li>Вы можете задать вопрос<br>преподавателю на занятии</li>
+
+        </ul>
+      </div>
+    </section>
+
+
+
+    <section class="what">
+      <h1 class="head2">Что узнаем</h1>
+      <ul class="l4">
+        <li>Кто чем занят в съёмочной группе;</li>
+        <li>На какие этапы делится кинопроизводство;</li>
+        <li>Как выглядит сценарий фильма и как он меняется
+          по ходу съёмок;</li>
+        <li>Какими методами режиссёры заставляют нас смеяться, плакать и грустить;</li>
+        <li>Как построение кадра, музыка и свет помогают считывать заложенные в фильм смыслы;</li>
+        <li>Какие жанры есть в кино и как от них зависит работа операторов, осветителей и монтажёров;</li>
+        <li> Как, зная всё это, понимать, о чем фильм.</li>
+      </ul>
+    </section>
     <section id="program-course-part">
-<div class="all-course-part container">
-  <div class="section-title"><p>
-    Программа курса
-  </p></div>
-<div class="all-card-section-cover">
-  <div class="all-card">
-    <div class="course-card">
-      <img src="./assets/images/Card-img-1.svg" alt="img1">
-    <p class="course-number">
-      1. Как создают кино
-    </p>
-    <p class="course-date">
-      8 сентября 20:00
-      <br>
-Данила Кузнецов
-    </p>
-    </div>
-    <div class="course-card centered-course-card ">
-      <img src="./assets/images/Card-img-6.svg" alt="img2">
-    <p class="course-number">
-      2. Взгляд драматурга
-    </p>
-    <p class="course-date">
-      10 сентября 20:00<br>
-Данила Кузнецов
-    </p>
-    </div>
-    <div class="course-card  ">
-      <img src="./assets/images/Card-img-3.svg" alt="img3">
-    <p class="course-number">
-      3. Взгляд режиссёра
-    </p>
-    <p class="course-date">
-      13 сентября 13:00<br>
-      Данила Кузнецов
-    </p>
-    </div>
-    <div class="course-card ">
-      <img src="./assets/images/Card-img-5.svg" alt="img4">
-    <p class="course-number">
-      4. Взгляд монтажёра
-    </p>
-    <p class="course-date">
-      15 сентября 20:00<br>
-      Данила Кузнецов
-    </p>
-    </div>
-    <div class="course-card centered-course-card">
-      <img src="./assets/images/Card-img-4.svg" alt="img5">
-    <p class="course-number">
-      5. Жанры в кино
-    </p>
-    <p class="course-date">
-      17 сентября 20:00<br>
-      Данила Кузнецов
-    </p>
-    </div>
-    <div class="course-card ">
-      <img src="./assets/images/Card-img-66.svg" alt="img6">
-    <p class="course-number">
-      6. Язык кино. Семинар
-    </p>
-    <p class="course-date">
-      20 сентября 13:00<br>
-Данила Кузнецов
-    </p>
-    </div>
-    <div class="course-card">
-      <img src="./assets/images/Card-img-8.svg" alt="img7">
-    <p class="course-number">
-      7. Взгляд кинокритика
-    </p>
-    <p class="course-date">
-      21 сентября 19:00<br>
-      Дмитрий Скворцов
-    </p>
-    </div>
-    <div class="course-card last-card centered-course-card">
-      <img src="./assets/images/Card-img-9.svg" alt="img8">
-    <p class="course-number">
-      8. Осознанный зритель.
-      Семинар
-    </p>
-    <p class="course-date">
-      22 сентября 19:00<br>
-      Дмитрий Скворцов
-    </p>
-    </div>
+      <div class="all-course-part container">
+        <div class="section-title">
+          <p>
+            Программа курса
+          </p>
+        </div>
+        <div class="all-card-section-cover">
+          <div class="all-card">
+            <div class="course-card">
+              <img src="./assets/images/Card-img-1.svg" alt="img1">
+              <p class="course-number">
+                1. Как создают кино
+              </p>
+              <p class="course-date">
+                8 сентября 20:00
+                <br>
+                Данила Кузнецов
+              </p>
+            </div>
+            <div class="course-card centered-course-card ">
+              <img src="./assets/images/Card-img-6.svg" alt="img2">
+              <p class="course-number">
+                2. Взгляд драматурга
+              </p>
+              <p class="course-date">
+                10 сентября 20:00<br>
+                Данила Кузнецов
+              </p>
+            </div>
+            <div class="course-card  ">
+              <img src="./assets/images/Card-img-3.svg" alt="img3">
+              <p class="course-number">
+                3. Взгляд режиссёра
+              </p>
+              <p class="course-date">
+                13 сентября 13:00<br>
+                Данила Кузнецов
+              </p>
+            </div>
+            <div class="course-card ">
+              <img src="./assets/images/Card-img-5.svg" alt="img4">
+              <p class="course-number">
+                4. Взгляд монтажёра
+              </p>
+              <p class="course-date">
+                15 сентября 20:00<br>
+                Данила Кузнецов
+              </p>
+            </div>
+            <div class="course-card centered-course-card">
+              <img src="./assets/images/Card-img-4.svg" alt="img5">
+              <p class="course-number">
+                5. Жанры в кино
+              </p>
+              <p class="course-date">
+                17 сентября 20:00<br>
+                Данила Кузнецов
+              </p>
+            </div>
+            <div class="course-card ">
+              <img src="./assets/images/Card-img-66.svg" alt="img6">
+              <p class="course-number">
+                6. Язык кино. Семинар
+              </p>
+              <p class="course-date">
+                20 сентября 13:00<br>
+                Данила Кузнецов
+              </p>
+            </div>
+            <div class="course-card">
+              <img src="./assets/images/Card-img-8.svg" alt="img7">
+              <p class="course-number">
+                7. Взгляд кинокритика
+              </p>
+              <p class="course-date">
+                21 сентября 19:00<br>
+                Дмитрий Скворцов
+              </p>
+            </div>
+            <div class="course-card last-card centered-course-card">
+              <img src="./assets/images/Card-img-9.svg" alt="img8">
+              <p class="course-number">
+                8. Осознанный зритель.
+                Семинар
+              </p>
+              <p class="course-date">
+                22 сентября 19:00<br>
+                Дмитрий Скворцов
+              </p>
+            </div>
 
 
-  </div>
-</div>
-</div>
+          </div>
+        </div>
+      </div>
     </section>
     <section id="card">
-  <div class="all-card-big-div">
-    <div class="big-div">
-      <div class="card-section-content-container">
-        <p class="p1">
-          Курс прошло уже 1616 человек
-        </p>
-          
-        <div class="p2">
-         
-         <p class="p3">Курс профессионально подготовлен, изложение материала весьма доступное, благодаря прекрасному изложению лекторов и демонстрации примеров. А наличие домашних заданий позволяет закрепить все полученные знания на практике. Теперь другими глазами смотрю фильмы, считываю не только сюжет , но и могу оценить работу режиссера, оператора, монтажера и т.д. Спасибо!
-      
-          </p>
-          <div class="user-card-info">
-          <div class="user-img-1">
-            <img class="photo" src="./assets/images/card-gunel.svg" alt="photo1">
-          </div>
-          <div class="user-info">
-            <p class="name">
-              Екатерина Палехова
+      <div class="all-card-big-div">
+        <div class="big-div">
+          <div class="card-section-content-container">
+            <p class="p1">
+              Курс прошло уже 1616 человек
             </p>
-            <img class="social" src="./assets/images/card-gunel1.svg" alt="photo2">
-              
+
+            <div class="p2">
+
+              <p class="p3">Курс профессионально подготовлен, изложение материала весьма доступное, благодаря
+                прекрасному изложению лекторов и демонстрации примеров. А наличие домашних заданий позволяет закрепить
+                все полученные знания на практике. Теперь другими глазами смотрю фильмы, считываю не только сюжет , но и
+                могу оценить работу режиссера, оператора, монтажера и т.д. Спасибо!
+
+              </p>
+              <div class="user-card-info">
+                <div class="user-img-1">
+                  <img class="photo" src="./assets/images/card-gunel.svg" alt="photo1">
+                </div>
+                <div class="user-info">
+                  <p class="name">
+                    Екатерина Палехова
+                  </p>
+                  <img class="social" src="./assets/images/card-gunel1.svg" alt="photo2">
+
+                </div>
+              </div>
+
+
+
+            </div>
           </div>
-         </div>
-         
-        
-        
+        </div>
       </div>
-        </div>  
-      </div>
-  </div>
-  
-  </section>
+
+    </section>
   </main>
-      <!-- footer -->
+  <!-- footer -->
   <footer>
     <section class="hero">
-      
+
       <h3>
         Начало курса — 8 сентября
       </h3>
@@ -269,41 +280,42 @@
       </p>
       <div class="parent">
         <div class="left1">
-  <h5>
-    Для любого уровня
-  </h5>
-  <p class="nuhu">Курс подходит и тем, кто начинает «с нуля», и тем, кто хочет упорядочить имеющиеся знания.</p>
+          <h5>
+            Для любого уровня
+          </h5>
+          <p class="nuhu">Курс подходит и тем, кто начинает «с нуля», и тем, кто хочет упорядочить имеющиеся знания.</p>
         </div>
         <div class="right1">
           <h5>Проходите сейчас</h5>
-          <p class="nuhu">Если вы не успели на вебинар, всегда можете посмотреть запись в личном кабинете</p>  
+          <p class="nuhu">Если вы не успели на вебинар, всегда можете посмотреть запись в личном кабинете</p>
         </div>
       </div>
-    
+
     </section>
     <section class="hero2">
       <div class="n20">
-    <div class="n1">
-      <img class="logo-mobile-black" src="./assets/images/nuh2.svg" alt="logo">
-      <img class="logo-mobile-instagram" src="./assets/images/nuh1.svg" alt="instagram">
-      <img class="logo-mobile-white" src="./assets/images/fb.svg" alt="facebook">
-      <img class="logo-mobile-white" src="./assets/images/nuh.svg" alt="nema">
-      <img class="logo-mobile-white" src="./assets/images/noroot(2).svg" alt="watsap">
-    </div>
+        <div class="n1">
+          <img class="logo-mobile-black" src="./assets/images/nuh2.svg" alt="logo">
+          <img class="logo-mobile-instagram" src="./assets/images/nuh1.svg" alt="instagram">
+          <img class="logo-mobile-white" src="./assets/images/fb.svg" alt="facebook">
+          <img class="logo-mobile-white" src="./assets/images/nuh.svg" alt="nema">
+          <img class="logo-mobile-white" src="./assets/images/noroot(2).svg" alt="watsap">
+        </div>
 
-    <div class="n2">
-     <div class="contact">
-      <img class="logo-mobile-phone" src="./assets/images/phone_white.svg" alt="phone">
-      <span class="phone">+7 (499) 39-146-39</span><br>
-     </div>
-      <img class="logo-mobile-phone" src="./assets/images/mail_white.svg" alt="mail">
-      <span class="mail">hello@synchronize.ru</span>
-    </div>
-  </div>
-  <p class="sin">© Синхронизация, 2020</p>
-  </section>
+        <div class="n2">
+          <div class="contact">
+            <img class="logo-mobile-phone" src="./assets/images/phone_white.svg" alt="phone">
+            <span class="phone">+7 (499) 39-146-39</span><br>
+          </div>
+          <img class="logo-mobile-phone" src="./assets/images/mail_white.svg" alt="mail">
+          <span class="mail">hello@synchronize.ru</span>
+        </div>
+      </div>
+      <p class="sin">© Синхронизация, 2020</p>
+    </section>
 
   </footer>
   <!-- footer -->
 </body>
+
 </html>

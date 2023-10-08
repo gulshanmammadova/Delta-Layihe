@@ -1,423 +1,500 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,900;1,100;1,400;1,500&family=Mrs+Saint+Delafield&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,800;1,300;1,400;1,700;1,800&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100;0,8..144,200;0,8..144,300;0,8..144,400;0,8..144,500;0,8..144,600;0,8..144,700;0,8..144,800;0,8..144,900;1,8..144,100;1,8..144,200;1,8..144,300;1,8..144,400;1,8..144,500;1,8..144,600;1,8..144,700;1,8..144,800;1,8..144,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: 'Roboto Slab', serif;
 }
+
 /* Start of "Программа курса" Desktop CSS  Part*/
-#card{
+#card {
     background-color: #EFEFEF;
 }
-.all-card-section-cover{
+
+.all-card-section-cover {
     width: 100%;
 }
-.container{
+
+.container {
     margin-left: 84px;
     margin-right: 84px;
 }
-.section-title{
+
+.section-title {
     margin-left: 27px;
     color: #000;
-font-family: 'Roboto Slab', serif;
-font-size: 55px;
-font-style: normal;
-font-weight: 700;
-line-height: 101.385%; /* 55.762px */
-margin-bottom: 94px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 101.385%;
+    /* 55.762px */
+    margin-bottom: 94px;
 }
-.course-card{
+
+.course-card {
     width: 399px;
     height: 328px;
     border-radius: 30px;
     box-shadow: 1px 1px 13px 0px gray;
     margin-bottom: 41px;
 }
-.centered-course-card{
+
+.centered-course-card {
     margin: 0 4%;
 
 }
-.course-number{
+
+.course-number {
     color: #000;
-font-family: 'Roboto ', sans-serif;
-font-size: 30px;
-font-style: normal;
-font-weight: 700;
-line-height: 130%; /* 39px */
-padding-bottom: 32px;
-padding-top: 11px;
-margin-left: 19px;
+    font-family: 'Roboto ', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    /* 39px */
+    padding-bottom: 32px;
+    padding-top: 11px;
+    margin-left: 19px;
 }
-.course-date{
+
+.course-date {
     color: #000;
-font-family: 'Roboto ', sans-serif;
-font-size: 25px;
-font-style: normal;
-font-weight: 400;
-line-height: 130%; /* 32.5px */
-padding-bottom:23px ;
-margin-left: 19px;
-width: 58%;
+    font-family: 'Roboto ', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    /* 32.5px */
+    padding-bottom: 23px;
+    margin-left: 19px;
+    width: 58%;
 
 }
-.all-card{
+
+.all-card {
     display: flex;
     flex-wrap: wrap;
     font-family: 'Roboto', sans-serif;
 }
-.last-card .course-number{
-padding-bottom: 5px !important;
+
+.last-card .course-number {
+    padding-bottom: 5px !important;
 }
+
 @media screen and (min-width : 1290px) {
-    .all-card{
+    .all-card {
         width: 1302px;
         margin: 0 auto;
     }
 }
+
 /* End of "Программа курса" Desktop CSS  Part*/
-@media screen and (min-width : 1275px) 
-and 
-(max-width : 1468px) {
-    .centered-course-card{
+@media screen and (min-width : 1275px) and (max-width : 1468px) {
+    .centered-course-card {
         margin: 0 2%;
-    
+
     }
-   
-    .course-card img{
+
+    .course-card img {
         width: 100%;
     }
-    .all-card{
+
+    .all-card {
         margin: 0 auto;
-    width: 847px;
+        width: 847px;
     }
-.course-card{
-    width: 30%;
+
+    .course-card {
+        width: 30%;
+    }
+
+    .course-date {
+        width: 90% !important;
+    }
 }
-.course-date{
-    width: 90% !important;
-}
-}
-@media screen and (min-width : 1219px) 
-and 
-(max-width : 1254px) {
-    .centered-course-card{
+
+@media screen and (min-width : 1219px) and (max-width : 1254px) {
+    .centered-course-card {
         margin: 0 1%;
-    
-    
+
+
     }
-    .course-card img{
+
+    .course-card img {
         width: 100%;
     }
+
     .course-card {
         width: 355px;
     }
-    .course-date{
+
+    .course-date {
         width: 65%;
     }
- 
+
 }
-@media screen and (min-width : 1255px) 
-and 
-(max-width : 1275px) {
-    .centered-course-card{
+
+@media screen and (min-width : 1255px) and (max-width : 1275px) {
+    .centered-course-card {
         margin: 0 1%;
-    
-    
+
+
     }
-    .course-card img{
+
+    .course-card img {
         width: 100%;
     }
-  
-        .course-card {
-            width: 30% !important;}
-    
-    .course-date{
+
+    .course-card {
+        width: 30% !important;
+    }
+
+    .course-date {
         width: 65%;
     }
- 
+
 }
-@media screen and (min-width : 1218px) 
-and 
-(max-width : 1251px) {
-    .centered-course-card{
+
+@media screen and (min-width : 1218px) and (max-width : 1251px) {
+    .centered-course-card {
         margin: 0 1%;
-    
-    
+
+
     }
-    .course-card img{
+
+    .course-card img {
         width: 100%;
     }
+
     .course-card {
         width: 343px;
     }
-    .course-date{
+
+    .course-date {
         width: 69%;
     }
- 
+
 }
+
 /* Start of "Программа курса" Tablet CSS  Part*/
-@media screen and (min-width : 992px) 
-and 
-(max-width : 1219px) {
-    .centered-course-card{
+@media screen and (min-width : 992px) and (max-width : 1219px) {
+    .centered-course-card {
         margin: 0 9%;
-    
+
     }
-    
-   .container{
-    margin: 0  48px;
-   }
-   .section-title{
-    font-size: 32px;
-    line-height: 101.385%; /* 32.443px */
-   }
-   .course-card{
-    width: 231.088px;
-    height: 189.967px;
-border-radius: 17.4px;
-   }
-   .course-card img{
-    width: 231.088px;
 
-height: 92.667px;
-   }
-   .course-date{
-    font-size: 14px;
-    padding-bottom: 13px;
-    line-height: 130%; /* 18.2px */
+    .container {
+        margin: 0 48px;
+    }
 
-   }
-   .course-number{
-    margin-top: 0px !important;
-    font-size: 17px;
-    line-height: 130%; /* 22.1px */
-    padding-bottom: 18px;
-   }
- .section-title{
-    margin-bottom: 55px;
- }
- .last-card .course-number{
-padding: 0.8px !important;
- }
+    .section-title {
+        font-size: 32px;
+        line-height: 101.385%;
+        /* 32.443px */
+    }
+
+    .course-card {
+        width: 231.088px;
+        height: 189.967px;
+        border-radius: 17.4px;
+    }
+
+    .course-card img {
+        width: 231.088px;
+
+        height: 92.667px;
+    }
+
+    .course-date {
+        font-size: 14px;
+        padding-bottom: 13px;
+        line-height: 130%;
+        /* 18.2px */
+
+    }
+
+    .course-number {
+        margin-top: 0px !important;
+        font-size: 17px;
+        line-height: 130%;
+        /* 22.1px */
+        padding-bottom: 18px;
+    }
+
+    .section-title {
+        margin-bottom: 55px;
+    }
+
+    .last-card .course-number {
+        padding: 0.8px !important;
+    }
 }
+
 /* End of "Программа курса" Tablet CSS  Part*/
 /* Start of "Программа курса" Mobile CSS  Part*/
 
-@media screen and (min-width : 320px) 
-and 
-(max-width : 991px) {
-    .all-card{
+@media screen and (min-width : 320px) and (max-width : 991px) {
+    .all-card {
         flex-direction: column;
         align-items: center;
     }
-.container{
-    margin:0 36px;
-}
-.section-title{
-    font-size: 26px;
-    margin-bottom: 36px;
-line-height: 101.385%; /* 26.36px */
-}
-.course-card img{
-    width: 186.923px;
-height: 74.556px;
-margin-bottom: 5px;
-}
-.course-date {
-    font-size: 12px;
-    line-height: 130%; /* 15.6px */
-    margin-bottom: 10px;
-    width: 60%;
-}
-.course-number{
-    margin-top: 0px !important;
-    font-size: 14px;
-    margin-bottom: 14px;
-    margin-bottom: 4px  !important;
-    padding-bottom: 0 !important;
-    line-height: 130%; /* 18.2px */
-}
-.course-card {
-    width: 186.923px;
-height: 173.839px;
-border-radius: 14px;
-margin-bottom: 24px !important;
-}
-.lessons{
-    width: 30% !important;
-}
+
+    .container {
+        margin: 0 36px;
+    }
+
+    .section-title {
+        font-size: 26px;
+        margin-bottom: 36px;
+        line-height: 101.385%;
+        /* 26.36px */
+    }
+
+    .course-card img {
+        width: 186.923px;
+        height: 74.556px;
+        margin-bottom: 5px;
+    }
+
+    .course-date {
+        font-size: 12px;
+        line-height: 130%;
+        /* 15.6px */
+        margin-bottom: 10px;
+        width: 60%;
+    }
+
+    .course-number {
+        margin-top: 0px !important;
+        font-size: 14px;
+        margin-bottom: 14px;
+        margin-bottom: 4px !important;
+        padding-bottom: 0 !important;
+        line-height: 130%;
+        /* 18.2px */
+    }
+
+    .course-card {
+        width: 186.923px;
+        height: 173.839px;
+        border-radius: 14px;
+        margin-bottom: 24px !important;
+    }
+
+    .lessons {
+        width: 30% !important;
+    }
 
 }
+
 /* End of "Программа курса" Mobile CSS  Part*/
 /* Start of "О курсе" Desktop CSS  Part*/
 
-#o-course-section .page-header{
-  
+#o-course-section .page-header {
+
     width: 77%;
     align-items: center;
     margin: 0px auto;
 }
-#o-course-section .course-content{
+
+#o-course-section .course-content {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 94px;
     justify-content: space-between;
 }
-#o-course-section .left{
+
+#o-course-section .left {
     width: 55%;
 }
-#o-course-section .main-text{
+
+#o-course-section .main-text {
     width: 96%;
 }
-#o-course-section .little-text{
+
+#o-course-section .little-text {
     width: 92%;
 }
-#o-course-section p{
-color: #000;
-font-family: 'Roboto ', sans-serif;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: 150%; /* 36px */
+
+#o-course-section p {
+    color: #000;
+    font-family: 'Roboto ', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 36px */
 }
-#o-course-section h1.title{
+
+#o-course-section h1.title {
     width: 100%;
     color: #000;
-font-family: 'Roboto Slab', serif;
-font-size: 55px;
-font-style: normal;
-font-weight: 700;
-line-height: 101.385%; /* 55.762px */
+    font-family: 'Roboto Slab', serif;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 101.385%;
+    /* 55.762px */
 
-margin-top: 91px;
-margin-bottom: 19px;
+    margin-top: 91px;
+    margin-bottom: 19px;
 }
-#o-course-section .page-header img{
+
+#o-course-section .page-header img {
     width: 314px;
-height: 315px;
+    height: 315px;
 }
-#o-course-section .page-footer img{
-width: 232px;
-height: 203px;
+
+#o-course-section .page-footer img {
+    width: 232px;
+    height: 203px;
 }
+
 #o-course-section .page-footer {
     width: 100%;
     display: flex;
     /* margin: 0 auto; */
     align-items: center;
     justify-content: space-between;
-  
+
 }
-#o-course-section .lessons{
+
+#o-course-section .lessons {
     width: 17%;
     margin-left: auto;
 }
-#o-course-section .lessons p.first-p{
+
+#o-course-section .lessons p.first-p {
     font-size: 25px;
     font-style: normal;
     font-weight: 700;
-    line-height: 130%; /* 32.5px */
+    line-height: 130%;
+    /* 32.5px */
 }
+
 /* Tablet */
-@media screen and (min-width: 992px)
- and 
- (max-width: 1279px){
-#o-course-section h1.title{
-    font-size: 32px;
-    line-height: 101.385%; /* 32.443px */
-}
-#o-course-section .main-text{
-    width: 84%;
-    font-size: 14px;
-    line-height: 150%; /* 21px */
+@media screen and (min-width: 992px) and (max-width: 1279px) {
+    #o-course-section h1.title {
+        font-size: 32px;
+        line-height: 101.385%;
+        /* 32.443px */
+    }
 
-}
-#o-course-section .right img{
-    width: 181.858px;
-height: 182.438px;
-}
-#o-course-section .little-text{
-    width: 84%;
-}
-#o-course-section .page-footer{
-    margin-left: 0;
-}
-#o-course-section .page-footer .img-box {
-    width: 134.367px;
-height: 117.571px;
-}
+    #o-course-section .main-text {
+        width: 84%;
+        font-size: 14px;
+        line-height: 150%;
+        /* 21px */
 
-#o-course-section .lessons p{
-    font-size: 11px;
-    line-height: 130%; /* 19.5px */
-}
-#o-course-section .lessons p.first-p{
-    line-height: 130%; /* 19.5px */
-    font-size: 15px;
+    }
 
+    #o-course-section .right img {
+        width: 181.858px;
+        height: 182.438px;
+    }
+
+    #o-course-section .little-text {
+        width: 84%;
+    }
+
+    #o-course-section .page-footer {
+        margin-left: 0;
+    }
+
+    #o-course-section .page-footer .img-box {
+        width: 134.367px;
+        height: 117.571px;
+    }
+
+    #o-course-section .lessons p {
+        font-size: 11px;
+        line-height: 130%;
+        /* 19.5px */
+    }
+
+    #o-course-section .lessons p.first-p {
+        line-height: 130%;
+        /* 19.5px */
+        font-size: 15px;
+
+    }
+
+    #o-course-section .lessons {
+        margin-left: 0;
+        width: 15%;
+    }
 }
-#o-course-section .lessons{
-    margin-left: 0;
-    width: 15%;
-}
-  }
 
 
 
 /* Tablet */
 /* Telefon */
-@media screen and (min-width: 320px)
-and (max-width: 991px)
- {
-  #o-course-section .course-content{
-    display: block;
-  }  
-  #o-course-section .title{
-    font-size: 26px;
-line-height: 101.385%; /* 26.36px */
+@media screen and (min-width: 320px) and (max-width: 991px) {
+    #o-course-section .course-content {
+        display: block;
+    }
 
-  }
-  #o-course-section .main-text{
-    font-size: 12px;
-line-height: 150%; /* 18px */
-  }
- #o-course-section .page-header img{
-    width: 146.315px;
-height: 146.781px;
-  }
-#o-course-section .img-box{
-    display: none;
+    #o-course-section .title {
+        font-size: 26px;
+        line-height: 101.385%;
+        /* 26.36px */
+
+    }
+
+    #o-course-section .main-text {
+        font-size: 12px;
+        line-height: 150%;
+        /* 18px */
+    }
+
+    #o-course-section .page-header img {
+        width: 146.315px;
+        height: 146.781px;
+    }
+
+    #o-course-section .img-box {
+        display: none;
+    }
+
+    #o-course-section .little-text {
+        margin-bottom: 56px;
+    }
+
+    #o-course-section .right {
+        width: 30%;
+        margin: 0 auto;
+    }
+
+    #o-course-section .left {
+        width: 100%;
+    }
+
+    #o-course-section .lessons {
+        width: 26%;
+        margin-right: 34px;
+        margin-bottom: 34px;
+        margin-left: 0;
+    }
+
+    #o-course-section .page-footer {
+        flex-wrap: wrap;
+    }
+
+    #o-course-section .lessons p {
+        font-size: 10px;
+    }
+
+    #o-course-section .lessons p.first-p {
+        font-size: 12px;
+    }
 }
-#o-course-section .little-text{
-    margin-bottom: 56px;
-}
-#o-course-section .right{
-    width: 30%;
-    margin: 0 auto;
-}
-#o-course-section .left{
-    width: 100%;
-}
-#o-course-section .lessons {
-    width: 26%;
-    margin-right: 34px;
-    margin-bottom: 34px;
-    margin-left: 0;
-}
-#o-course-section .page-footer{
-    flex-wrap: wrap;
-}
-#o-course-section .lessons p{
-    font-size: 10px;
-}
-#o-course-section .lessons p.first-p {
-    font-size: 12px;
-}
- }
+
 /* Telefon */
 
 /* End of "О курсе" Desktop CSS  Part*/
@@ -427,335 +504,410 @@ height: 146.781px;
 
 
 /* footer */
-.hero{
+.hero {
     background-color: #9DC9C8;
     padding: 120px 84px;
 }
 
 
- .hero h3{
+.hero h3 {
     margin: 70px 0;
     color: #000;
-font-family: Roboto Slab;
-font-size: 55px;
-font-style: normal;
-font-weight: 700;
-line-height: 101.385%; /* 55.762px */
+    font-family: Roboto Slab;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 101.385%;
+    /* 55.762px */
 
 }
-.nuh-span{
+
+.nuh-span {
     color: #000;
-font-family: Roboto;
-font-size: 25px;
-font-style: normal;
-font-weight: 400;
-line-height: 101.385%; /* 25.346px */
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 101.385%;
+    /* 25.346px */
 }
-.nuh{
+
+.nuh {
     margin-bottom: 90px;
-color: #000;
-font-family: Roboto;
-font-size: 80px;
-font-style: normal;
-font-weight: 400;
-line-height: 101.385%; /* 81.108px */
+    color: #000;
+    font-family: Roboto;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 101.385%;
+    /* 81.108px */
 }
-.parent{
+
+.parent {
     display: flex;
 }
-.left1{
+
+.left1 {
     width: 293px;
     margin-right: 6%;
 }
-.right1{
+
+.right1 {
     width: 293px;
 
 }
- .parent h5{
+
+.parent h5 {
     margin-bottom: 10px;
     color: #000;
-font-family: Roboto;
-font-size: 25px;
-font-style: normal;
-font-weight: 400;
-line-height: 101.385%; /* 25.346px */
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 101.385%;
+    /* 25.346px */
 }
-.nuhu{
+
+.nuhu {
     color: #000;
-font-family: Roboto;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 101.385%; /* 18.249px */
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 101.385%;
+    /* 18.249px */
 }
-.hero2{
+
+.hero2 {
     background-color: black;
     padding: 40px 84px;
     color: white;
-    
-}
-.n20{
-    display: flex;
-    justify-content: space-between;
-    
-}
-.phone{
-    color: #FFF;
-    font-family: Roboto;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 101.385%; /* 25.346px */
-   
-}
-.mail{
-    color: #FFF;
-    font-family: Roboto;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 101.385%; /* 25.346px */
 
 }
-.logo-mobile-white{
+
+.n20 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.phone {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 101.385%;
+    /* 25.346px */
+
+}
+
+.mail {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 101.385%;
+    /* 25.346px */
+
+}
+
+.logo-mobile-white {
     margin: 10px;
 }
-.logo-mobile-black{
-display: block;
+
+.logo-mobile-black {
+    display: block;
 }
-.logo-mobile-instagram{
+
+.logo-mobile-instagram {
     margin: 10px 10px 10px 0;
 }
-.logo-mobile-phone{
-    margin: 0  10px 0 0;
+
+.logo-mobile-phone {
+    margin: 0 10px 0 0;
 }
-.contact{
+
+.contact {
     margin-bottom: 10px;
 }
-.sin{
+
+.sin {
     color: #FFF;
-font-family: Roboto;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 101.385%; /* 18.249px */
-margin-top: 180px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 101.385%;
+    /* 18.249px */
+    margin-top: 180px;
 }
+
 @media screen and (min-width:992px) and (max-width:1279px) {
-    .hero{
+    .hero {
         background-color: #9DC9C8;
         padding: 100px 75px;
     }
-    .hero2{
+
+    .hero2 {
         background-color: black;
         padding: 35px 75px;
-        color: white;}
-        .hero h3{
-    margin: 45px 0;
-    font-size: 32px;
+        color: white;
     }
-    .nuh-span{
-    font-size: 14px;
+
+    .hero h3 {
+        margin: 45px 0;
+        font-size: 32px;
     }
-    .nuh{
+
+    .nuh-span {
+        font-size: 14px;
+    }
+
+    .nuh {
         margin-bottom: 50px;
-    font-size: 46px;
+        font-size: 46px;
     }
-    .parent h5{
+
+    .parent h5 {
         margin-bottom: 6px;
-    font-size: 15px;
+        font-size: 15px;
     }
-    .nuhu{
-    font-size: 10px;
+
+    .nuhu {
+        font-size: 10px;
     }
-    .phone{
+
+    .phone {
         font-size: 14px;
         width: 59px;
     }
-    .mail{
+
+    .mail {
         font-size: 14px;
     }
-    .left1{
+
+    .left1 {
         width: 163px;
     }
-    .right1{
+
+    .right1 {
         width: 163px;
     }
-    .sin{
-    font-size: 10px;
-    margin-top: 100px;
+
+    .sin {
+        font-size: 10px;
+        margin-top: 100px;
     }
-    .logo-mobile-white{
+
+    .logo-mobile-white {
         margin: 10px;
         width: 19.113px;
         height: 19.113px;
         flex-shrink: 0;
         margin: 0 6px 6px 0;
     }
-    .logo-mobile-black{
+
+    .logo-mobile-black {
         width: 66.604px;
         height: 39.383px;
         flex-shrink: 0;
     }
-    .logo-mobile-instagram{
+
+    .logo-mobile-instagram {
         margin: 6px 6px 6px 0;
         width: 19.113px;
         height: 19.113px;
         flex-shrink: 0;
     }
-    .logo-mobile-phone{
-    
+
+    .logo-mobile-phone {
+
         width: 19.113px;
         flex-shrink: 0;
         margin-right: 6px;
     }
-    .contact{
+
+    .contact {
         margin-bottom: 7px;
         height: 19.113px;
         flex-shrink: 0;
     }
 }
+
 @media screen and (min-width:320px) and (max-width:991px) {
-    .hero{
+    .hero {
         background-color: #9DC9C8;
         padding: 40px 40px 80px 40px;
     }
-    
-    .hero2{
+
+    .hero2 {
         background-color: black;
         padding: 30px 40px;
-        color: white;}
-        .hero h3{
+        color: white;
+    }
+
+    .hero h3 {
         margin: 38px 0;
         font-size: 26px;
         width: 224px;
-        }
-        .nuh-span{
+    }
+
+    .nuh-span {
         font-size: 12px;
-        }
-        .nuh{
-            margin-bottom: 48px;
+    }
+
+    .nuh {
+        margin-bottom: 48px;
         font-size: 37px;
-        }
-        .parent h5{
-            margin-bottom: 5px;
-            
+    }
+
+    .parent h5 {
+        margin-bottom: 5px;
+
         font-size: 12px;
-        }
-        .nuhu{
+    }
+
+    .nuhu {
         font-size: 10px;
-        }
-        .phone{
-            font-size: 12px;
-          
-        }
-        .mail{
-            font-size: 12px;
-        }
-        .left1{
-            width:138px;
-            height: 30px;
-        }
-        .right1{
-            width:138px;
-            height: 30px;
-        }
-        .sin{
+    }
+
+    .phone {
+        font-size: 12px;
+
+    }
+
+    .mail {
+        font-size: 12px;
+    }
+
+    .left1 {
+        width: 138px;
+        height: 30px;
+    }
+
+    .right1 {
+        width: 138px;
+        height: 30px;
+    }
+
+    .sin {
         font-size: 10px;
         margin-top: 75px;
-        }
-        .logo-mobile-white{
-            width: 15.377px;
-            height: 15.377px;
-            flex-shrink: 0;
-            margin:0 4px 4px 0;
-        }
-        .logo-mobile-black{
-            width: 53.587px;
-            height: 31.686px;
-            flex-shrink: 0;
-        }
-        .logo-mobile-instagram{
-            width: 15.377px;
-            height: 15.377px;
-            flex-shrink: 0;
-            margin:10px 4px 4px 0;
-        }
-        .logo-mobile-phone{
-            width: 15.377px;
-            flex-shrink: 0;
-            margin-right:4px;
-        }
-        .contact{
-           margin-bottom: -4px;
-           height: 26px;
-        }
-    .n20{
+    }
+
+    .logo-mobile-white {
+        width: 15.377px;
+        height: 15.377px;
+        flex-shrink: 0;
+        margin: 0 4px 4px 0;
+    }
+
+    .logo-mobile-black {
+        width: 53.587px;
+        height: 31.686px;
+        flex-shrink: 0;
+    }
+
+    .logo-mobile-instagram {
+        width: 15.377px;
+        height: 15.377px;
+        flex-shrink: 0;
+        margin: 10px 4px 4px 0;
+    }
+
+    .logo-mobile-phone {
+        width: 15.377px;
+        flex-shrink: 0;
+        margin-right: 4px;
+    }
+
+    .contact {
+        margin-bottom: -4px;
+        height: 26px;
+    }
+
+    .n20 {
         display: block;
     }
-    .n2{
+
+    .n2 {
         margin-top: 50px;
     }
 }
-@media screen and (min-width:320px) and (max-width:376px){
-    .hero{
-       
+
+@media screen and (min-width:320px) and (max-width:376px) {
+    .hero {
+
         padding: 40px 32px 80px 32px;
     }
-    .hero2{
+
+    .hero2 {
         padding: 30px 32px;
-      }
-      .parent h5{
+    }
+
+    .parent h5 {
         font-size: 10px;
-      }
-    .nuhu{
-        font-size:9px;
     }
-    .left1{
-width: 123px;
-margin-right: 4%;
+
+    .nuhu {
+        font-size: 9px;
     }
-    .right1{
+
+    .left1 {
+        width: 123px;
+        margin-right: 4%;
+    }
+
+    .right1 {
         width: 125px;
     }
 }
+
 /* footer */
 
 /* margin-top: 91px; */
 
-.p1{
+.p1 {
     width: 987px;
-height: 93px;
-flex-shrink: 0;
-color: #000;
-font-family: Roboto Slab;
-font-size: 55px;
-font-style: normal;
-font-weight: 700;
-line-height: 101.385%; /* 55.762px */
-/* margin-top: 91px; */
-margin-left: 83px;
-margin-bottom: 34px;
-padding-top: 58px;
-padding-bottom: 20px;
+    height: 93px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Roboto Slab;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 101.385%;
+    /* 55.762px */
+    /* margin-top: 91px; */
+    margin-left: 83px;
+    margin-bottom: 34px;
+    padding-top: 58px;
+    padding-bottom: 20px;
 }
-.container{
+
+.container {
     margin: 0 84px;
 }
-.big-div{
-    background-color:#EFEFEF ;
-height: 677px;
-flex-shrink: 0;
+
+.big-div {
+    background-color: #EFEFEF;
+    height: 677px;
+    flex-shrink: 0;
 }
-.p2{
+
+.p2 {
     width: 791px;
-height: 429px;
-flex-shrink: 0;
-border-radius: 30px;
-background: #FFF;
-box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.25);
-margin-left: 92px;
-margin-top: 76px;}
+    height: 429px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #FFF;
+    box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.25);
+    margin-left: 92px;
+    margin-top: 76px;
+}
+
 /* .p3{
     width: 700px;
 height: 203px;
@@ -769,857 +921,1023 @@ line-height: 150%;
 padding: 40px 46px 50px 45px;
 margin-bottom: 33px;
 } */
-.p3{
+.p3 {
     color: #000;
     font-family: 'Roboto';
     font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 150%;
-padding: 40px 14px 10px 13px;
-margin-bottom: 33px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    padding: 40px 14px 10px 13px;
+    margin-bottom: 33px;
     width: 92%;
     margin: 0 auto;
 
 }
-.photo{
+
+.photo {
     width: 250px;
-height: 169px;
-flex-shrink: 0;
+    height: 169px;
+    flex-shrink: 0;
     flex-shrink: 0;
 }
-.name{
+
+.name {
     width: 353px;
-height: 72px;
-flex-shrink: 0;
-color: #000;
-font-family: Roboto Slab;
-font-size: 30px;
-font-style: normal;
-font-weight: 700;
-line-height: 101.385%; /* 30.415px */
-/* padding: 50px 192px 99px 30px; */
+    height: 72px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Roboto Slab;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 101.385%;
+    /* 30.415px */
+    /* padding: 50px 192px 99px 30px; */
 }
-.social{
+
+.social {
     width: 32px;
-height: 31px;
-flex-shrink: 0;
+    height: 31px;
+    flex-shrink: 0;
 }
-.user-card-info{
+
+.user-card-info {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     margin-left: -9px;
 
 }
-@media screen and (min-width: 992px) and (max-width: 1279px){
-    .p1{
-    /* width: 571.638px; */
-    /* height: 53.863px; */
-    font-size: 58px;
-}
-.p3{
-    font-size: 22px;
-    width: 94% !important;
-    margin-left: 26px;
-    margin-right: 26px;
-    font-family: 'Roboto', sans-serif;
-    
 
-}
-.photo{
-    width: 149.042px;
-    height: 138px;
-    margin-left: 23px;
-    margin-top: 5px;
-}
-.social{
-    margin-left: 5px;
-    width: 28.533px;
-    height: 23px;
-}
-.name{
-    
-    font-family: 'Roboto Slab', serif;
-    width: 268.446px;
-   margin-left: 5px;
-    font-size: 24px;
-}
-.p2{
-    
-    width: 58%;
-    border-radius: 17.375px;
-    box-shadow: 0.57917px 0.57917px 11.58333px 0px rgba(0, 0, 0, 0.25);
-    height: 400px !important;
-}
-.user-info{
-    margin-left: 17px;
-}
-.user-card-info{
-    margin-left: 5px;
-    margin-top: -20px;
-}
-.big-div{
-    width: 100%;
+@media screen and (min-width: 992px) and (max-width: 1279px) {
+    .p1 {
+        /* width: 571.638px; */
+        /* height: 53.863px; */
+        font-size: 58px;
+    }
 
+    .p3 {
+        font-size: 22px;
+        width: 94% !important;
+        margin-left: 26px;
+        margin-right: 26px;
+        font-family: 'Roboto', sans-serif;
+
+
+    }
+
+    .photo {
+        width: 149.042px;
+        height: 138px;
+        margin-left: 23px;
+        margin-top: 5px;
+    }
+
+    .social {
+        margin-left: 5px;
+        width: 28.533px;
+        height: 23px;
+    }
+
+    .name {
+
+        font-family: 'Roboto Slab', serif;
+        width: 268.446px;
+        margin-left: 5px;
+        font-size: 24px;
+    }
+
+    .p2 {
+
+        width: 58%;
+        border-radius: 17.375px;
+        box-shadow: 0.57917px 0.57917px 11.58333px 0px rgba(0, 0, 0, 0.25);
+        height: 400px !important;
+    }
+
+    .user-info {
+        margin-left: 17px;
+    }
+
+    .user-card-info {
+        margin-left: 5px;
+        margin-top: -20px;
+    }
+
+    .big-div {
+        width: 100%;
+
+    }
 }
-}
-@media screen and (min-width: 320px) and (max-width: 659px){
- 
-    .p1{
+
+@media screen and (min-width: 320px) and (max-width: 659px) {
+
+    .p1 {
         font-size: 26px;
         width: 248px;
         height: 20px;
         margin-left: 41px !important;
-        
+
     }
-    .user-info{
+
+    .user-info {
         margin-left: 35px;
     }
-    .p2{
+
+    .p2 {
         width: 51% !important;
         height: 239px;
         margin: 63px auto;
     }
-    .p3{
+
+    .p3 {
         width: 83%;
-height: 111.01px;
-flex-shrink: 0;
+        height: 111.01px;
+        flex-shrink: 0;
 
-font-size: 10px !important;
-font-weight: 400;
-line-height: 150%; /* 15px */
-padding-top: 20px;
+        font-size: 10px !important;
+        font-weight: 400;
+        line-height: 150%;
+        /* 15px */
+        padding-top: 20px;
     }
-    .photo{
+
+    .photo {
         width: 80px;
-height: 84px;
-flex-shrink: 0;
+        height: 84px;
+        flex-shrink: 0;
     }
-.name{
-    padding-top: 15px;
-    width: 164.488px;
-    height: 32.729px;
-    flex-shrink: 0; 
-    font-size: 14px;
-font-style: normal;
-line-height: 0;
-font-weight: 700;
-}
-.social{
-    width: 14.911px;
-height: 17.197px;
-flex-shrink: 0;
-}
-.user-card-info{
-    margin-top: 36px;
-    margin-left: -8px;
-}
-.user-img-1{
-    margin-left: 22px;
-}
-.card-section-content-container{
-    width: 100%;
- margin: 0 auto !important;
-}
-.big-div{
-    width: 100%; 
-    
+
+    .name {
+        padding-top: 15px;
+        width: 164.488px;
+        height: 32.729px;
+        flex-shrink: 0;
+        font-size: 14px;
+        font-style: normal;
+        line-height: 0;
+        font-weight: 700;
+    }
+
+    .social {
+        width: 14.911px;
+        height: 17.197px;
+        flex-shrink: 0;
+    }
+
+    .user-card-info {
+        margin-top: 36px;
+        margin-left: -8px;
+    }
+
+    .user-img-1 {
+        margin-left: 22px;
+    }
+
+    .card-section-content-container {
+        width: 100%;
+        margin: 0 auto !important;
+    }
+
+    .big-div {
+        width: 100%;
+
+
+    }
+
+    .photo {
+        margin-left: 38%;
+    }
+
 
 }
-.photo{
-    margin-left: 38%;
+
+@media screen and (min-width: 650px) and (max-width: 991px) {
+    .p2 {
+        width: 73%;
+        height: 462px;
+    }
+
+    .p1 {
+        width: 70%;
+    }
+
+    .p3 {
+        margin-top: 8rem;
+    }
+
+    .all-card-big-div {
+        height: 800px;
+    }
 }
 
+@media screen and (min-width: 320px) and (max-width: 520px) {
+    .p2 {
+        width: 60%;
+    }
 
-}
-@media screen and (min-width: 650px) and (max-width: 991px){
-.p2{
-    width: 73%;
-    height: 462px;
+    .p1 {
+        width: 72%;
+    }
+
+    .user-card-info {
+        margin-top: 28px;
+        margin-left: -7px;
+    }
+
+    .p3 {
+        font-size: 9px;
+        margin-top: 9rem;
+    }
+
+    .user-card-info {
+        margin-top: 49px;
+        margin-left: -33px;
+    }
+
+    .name {
+        font-size: 10px;
+    }
+
+    .social {
+        width: 14px;
+        height: 18px;
+        margin-top: -28px;
+
+    }
+
+    .photo {
+        width: 63px;
+        height: 83px;
+    }
+
+    .user-card-info {
+        margin-left: -24px;
+    }
 }
 
-.p1{
-    width: 70%;   
-}
-.p3{
-    margin-top:8rem ;
-}
-.all-card-big-div{
-    height: 800px;
-}
-}
-@media screen and (min-width: 320px) and (max-width: 520px){
-    .p2{
-    width: 60%;
-}
-.p1{
-    width: 72%;   
-}
-.user-card-info{
-    margin-top: 28px;
-    margin-left: -7px;
-}
-.p3{
-    font-size: 9px;
-    margin-top: 9rem;
-}
-.user-card-info{
-    margin-top: 49px;
-    margin-left: -33px;
-}
-.name{
-    font-size: 10px;
-}
-.social{
-    width: 14px;
-    height:18px;
-    margin-top: -28px;
-
-}
-.photo{
-    width: 63px;
-    height: 83px;
-}
-.user-card-info{
-    margin-left: -24px;
-}
-}
-@media screen and (min-width: 320px) and (max-width: 380px){
-    .p1{
+@media screen and (min-width: 320px) and (max-width: 380px) {
+    .p1 {
         margin-left: 53px;
     }
-    .p3{
+
+    .p3 {
         font-size: 7px;
     }
-    .user-card-info{
-    margin-left: -28px;
+
+    .user-card-info {
+        margin-left: -28px;
+    }
+
+    .user-info {
+        margin-left: 24px;
+    }
+
+
+
 }
-.user-info {
-    margin-left: 24px;
-}
-
-    
-
-}
 
 
-.all-card-section-cover{
+.all-card-section-cover {
     width: 100%;
 }
-.container{
+
+.container {
     margin-left: 84px;
     margin-right: 84px;
 }
-.section-title{
+
+.section-title {
     margin-left: 27px;
     color: #000;
-font-family: 'Roboto Slab', serif;
-font-size: 55px;
-font-style: normal;
-font-weight: 700;
-line-height: 101.385%; /* 55.762px */
-margin-bottom: 94px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 101.385%;
+    /* 55.762px */
+    margin-bottom: 94px;
 }
-.course-card{
+
+.course-card {
     width: 399px;
     height: 328px;
     border-radius: 30px;
     box-shadow: 1px 1px 13px 0px gray;
     margin-bottom: 41px;
 }
-.centered-course-card{
+
+.centered-course-card {
     margin: 0 4%;
 
 }
-.course-number{
+
+.course-number {
     color: #000;
-font-family: 'Roboto ', sans-serif;
-font-size: 30px;
-font-style: normal;
-font-weight: 700;
-line-height: 130%; /* 39px */
-padding-bottom: 32px;
-padding-top: 11px;
-margin-left: 19px;
+    font-family: 'Roboto ', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    /* 39px */
+    padding-bottom: 32px;
+    padding-top: 11px;
+    margin-left: 19px;
 }
-.course-date{
+
+.course-date {
     color: #000;
-font-family: 'Roboto ', sans-serif;
-font-size: 25px;
-font-style: normal;
-font-weight: 400;
-line-height: 130%; /* 32.5px */
-padding-bottom:23px ;
-margin-left: 19px;
-width: 58%;
+    font-family: 'Roboto ', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    /* 32.5px */
+    padding-bottom: 23px;
+    margin-left: 19px;
+    width: 58%;
 
 }
-.all-card{
+
+.all-card {
     display: flex;
     flex-wrap: wrap;
     font-family: 'Roboto', sans-serif;
 }
-.last-card .course-number{
-padding-bottom: 5px !important;
+
+.last-card .course-number {
+    padding-bottom: 5px !important;
 }
+
 @media screen and (min-width : 1290px) {
-    .all-card{
+    .all-card {
         width: 1302px;
         margin: 0 auto;
     }
 }
+
 /* End of "Программа курса" Desktop CSS  Part*/
-@media screen and (min-width : 320px) 
-and 
-(max-width : 649px) {
-.p2{
-    width: 80%;  
-}
-.big-div{
-    height: 460px;
-}
-.photo {
-    width: 55px;
-    height: 102px;}
+@media screen and (min-width : 320px) and (max-width : 649px) {
+    .p2 {
+        width: 80%;
+    }
+
+    .big-div {
+        height: 460px;
+    }
+
+    .photo {
+        width: 55px;
+        height: 102px;
+    }
+
     .p3 {
         font-size: 9px;
-        margin-top: 4rem;}
-        .p2 {
-            width: 83% !important;}
+        margin-top: 4rem;
+    }
+
+    .p2 {
+        width: 83% !important;
+    }
 }
-@media screen and (min-width : 650px) 
-and 
-(max-width : 659px){
- 
-    .p1{
+
+@media screen and (min-width : 650px) and (max-width : 659px) {
+
+    .p1 {
         padding-bottom: 0px;
     }
-    .all-card-big-div{
-            height: 460px;
-    } .p2{ height: 233px;  margin-top: -52px !important;
-    width:62%;}
+
+    .all-card-big-div {
+        height: 460px;
+    }
+
+    .p2 {
+        height: 233px;
+        margin-top: -52px !important;
+        width: 62%;
+    }
 }
-@media screen and (min-width : 660px) 
-and 
-(max-width : 690px){
+
+@media screen and (min-width : 660px) and (max-width : 690px) {
     .p1 {
         width: 78%;
     }
-    .p3{
+
+    .p3 {
         width: 93%;
     }
-    .photo{
+
+    .photo {
         height: 94px;
         width: 190px;
     }
-    .name{
+
+    .name {
         height: 34px;
         font-size: 21px;
     }
-    .user-info{
+
+    .user-info {
         margin-left: -40px;
     }
 }
-@media screen and (min-width : 691px) 
-and 
-(max-width : 1251px) {
-    .p2{
+
+@media screen and (min-width : 691px) and (max-width : 1251px) {
+    .p2 {
         width: 83%;
     }
-    .p1{
-            width: 63%;
-            padding-bottom: 67px;
+
+    .p1 {
+        width: 63%;
+        padding-bottom: 67px;
     }
-  
-}
-@media screen and (min-width : 1251px) 
-and 
-(max-width : 1279px) {
-    .course-card{
-        width: 30% !important;     
-    }
-  
+
 }
 
-@media screen and (min-width : 1280px) 
-and 
-(max-width : 1468px) {
-    .centered-course-card{
+@media screen and (min-width : 1251px) and (max-width : 1279px) {
+    .course-card {
+        width: 30% !important;
+    }
+
+}
+
+@media screen and (min-width : 1280px) and (max-width : 1468px) {
+    .centered-course-card {
         margin: 0 2%;
-        
-    
+
+
     }
-    .course-card img{
+
+    .course-card img {
         width: 100%;
     }
-    .all-card{
+
+    .all-card {
         margin: 0 auto;
-    width: 847px;
+        width: 847px;
     }
-.course-card{
-    width: 31%;
+
+    .course-card {
+        width: 31%;
+    }
+
+    .course-date {
+        width: 61%;
+    }
 }
-.course-date{
-    width: 61%;
-}
-}
-@media screen and (min-width : 1219px) 
-and 
-(max-width : 1254px) {
-    .centered-course-card{
+
+@media screen and (min-width : 1219px) and (max-width : 1254px) {
+    .centered-course-card {
         margin: 0 1%;
-    
-    
+
+
     }
-    .course-card img{
+
+    .course-card img {
         width: 100%;
     }
+
     .course-card {
         width: 355px;
     }
-    .course-date{
+
+    .course-date {
         width: 65%;
     }
- 
+
 }
-@media screen and (min-width : 1254px) 
-and 
-(max-width : 1275px) {
-    .centered-course-card{
+
+@media screen and (min-width : 1254px) and (max-width : 1275px) {
+    .centered-course-card {
         margin: 0 1%;
-    
-    
+
+
     }
-    .course-card img{
+
+    .course-card img {
         width: 100%;
     }
+
     .course-card {
         width: 353px;
     }
-    .course-date{
+
+    .course-date {
         width: 65%;
     }
- 
+
 }
-@media screen and (min-width : 1218px) 
-and 
-(max-width : 1251px) {
-    .centered-course-card{
+
+@media screen and (min-width : 1218px) and (max-width : 1251px) {
+    .centered-course-card {
         margin: 0 1%;
-    
-    
+
+
     }
-    .course-card img{
+
+    .course-card img {
         width: 100%;
     }
+
     .course-card {
         width: 343px;
     }
-    .course-date{
+
+    .course-date {
         width: 69%;
     }
- 
+
 }
+
 /* Start of "Программа курса" Tablet CSS  Part*/
-@media screen and (min-width : 992px) 
-and 
-(max-width : 1219px) {
-    .centered-course-card{
+@media screen and (min-width : 992px) and (max-width : 1219px) {
+    .centered-course-card {
         margin: 0 9%;
-    
+
     }
-   .container{
-    margin: 0  48px;
-   }
-   .section-title{
-    font-size: 32px;
-    line-height: 101.385%; /* 32.443px */
-   }
-   .course-card{
-    width: 231.088px;
-    height: 189.967px;
-border-radius: 17.4px;
-   }
-   .course-card img{
-    width: 231.088px;
 
-height: 92.667px;
-   }
-   .course-date{
-    font-size: 14px;
-    padding-bottom: 13px;
-    line-height: 130%; /* 18.2px */
+    .container {
+        margin: 0 48px;
+    }
 
-   }
-   .course-number{
-    margin-top: 0px !important;
-    font-size: 17px;
-    line-height: 130%; /* 22.1px */
-    padding-bottom: 18px;
-   }
- .section-title{
-    margin-bottom: 55px;
- }
- .last-card .course-number{
-padding: 0.8px !important;
- }
+    .section-title {
+        font-size: 32px;
+        line-height: 101.385%;
+        /* 32.443px */
+    }
+
+    .course-card {
+        width: 231.088px;
+        height: 189.967px;
+        border-radius: 17.4px;
+    }
+
+    .course-card img {
+        width: 231.088px;
+
+        height: 92.667px;
+    }
+
+    .course-date {
+        font-size: 14px;
+        padding-bottom: 13px;
+        line-height: 130%;
+        /* 18.2px */
+
+    }
+
+    .course-number {
+        margin-top: 0px !important;
+        font-size: 17px;
+        line-height: 130%;
+        /* 22.1px */
+        padding-bottom: 18px;
+    }
+
+    .section-title {
+        margin-bottom: 55px;
+    }
+
+    .last-card .course-number {
+        padding: 0.8px !important;
+    }
 }
+
 /* End of "Программа курса" Tablet CSS  Part*/
 /* Start of "Программа курса" Mobile CSS  Part*/
 
-@media screen and (min-width : 320px) 
-and 
-(max-width : 992px) {
-    .all-card{
+@media screen and (min-width : 320px) and (max-width : 992px) {
+    .all-card {
         flex-direction: column;
         align-items: center;
     }
-.container{
-    margin:0 36px;
-}
-.section-title{
-    font-size: 26px;
-    margin-bottom: 36px;
-line-height: 101.385%; /* 26.36px */
-}
-.course-card img{
-    width: 186.923px;
-height: 74.556px;
-margin-bottom: 5px;
-}
-.course-date {
-    font-size: 12px;
-    line-height: 130%; /* 15.6px */
-    margin-bottom: 10px;
-    width: 60%;
-}
-.course-number{
-    margin-top: 0px !important;
-    font-size: 14px;
-    margin-bottom: 14px;
-    margin-bottom: 4px  !important;
-    padding-bottom: 0 !important;
-    line-height: 130%; /* 18.2px */
-}
-.course-card {
-    width: 186.923px;
-height: 173.839px;
-border-radius: 14px;
-margin-bottom: 24px !important;
-}
-.lessons{
-    width: 30% !important;
-}
+
+    .container {
+        margin: 0 36px;
+    }
+
+    .section-title {
+        font-size: 26px;
+        margin-bottom: 36px;
+        line-height: 101.385%;
+        /* 26.36px */
+    }
+
+    .course-card img {
+        width: 186.923px;
+        height: 74.556px;
+        margin-bottom: 5px;
+    }
+
+    .course-date {
+        font-size: 12px;
+        line-height: 130%;
+        /* 15.6px */
+        margin-bottom: 10px;
+        width: 60%;
+    }
+
+    .course-number {
+        margin-top: 0px !important;
+        font-size: 14px;
+        margin-bottom: 14px;
+        margin-bottom: 4px !important;
+        padding-bottom: 0 !important;
+        line-height: 130%;
+        /* 18.2px */
+    }
+
+    .course-card {
+        width: 186.923px;
+        height: 173.839px;
+        border-radius: 14px;
+        margin-bottom: 24px !important;
+    }
+
+    .lessons {
+        width: 30% !important;
+    }
 
 }
+
 @media screen and (min-width : 1276px) {
     /* .course-card .course-date{
         width: 80%;
     }
      */
 }
+
 /* End of "Программа курса" Mobile CSS  Part*/
 /* Start of "О курсе" Desktop CSS  Part*/
 
-#o-course-section .page-header{
-  
+#o-course-section .page-header {
+
     width: 84%;
     align-items: center;
     margin: 0px 8%;
 }
-#o-course-section .course-content{
+
+#o-course-section .course-content {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 94px;
     justify-content: space-between;
 }
-#o-course-section .left{
+
+#o-course-section .left {
     width: 55%;
 }
-#o-course-section .main-text{
+
+#o-course-section .main-text {
     width: 96%;
 }
-#o-course-section .little-text{
+
+#o-course-section .little-text {
     width: 92%;
 }
-#o-course-section p{
-color: #000;
-font-family: 'Roboto ', sans-serif;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: 150%; /* 36px */
+
+#o-course-section p {
+    color: #000;
+    font-family: 'Roboto ', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 36px */
 }
-#o-course-section h1.title{
+
+#o-course-section h1.title {
     width: 100%;
     color: #000;
-font-family: Roboto Slab;
-font-size: 55px;
-font-style: normal;
-font-weight: 700;
-line-height: 101.385%; /* 55.762px */
+    font-family: Roboto Slab;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 101.385%;
+    /* 55.762px */
 
-margin-top: 91px;
-margin-bottom: 19px;
+    margin-top: 91px;
+    margin-bottom: 19px;
 }
-#o-course-section .page-header img{
+
+#o-course-section .page-header img {
     width: 314px;
-height: 315px;
+    height: 315px;
 }
-#o-course-section .page-footer img{
-width: 232px;
-height: 203px;
+
+#o-course-section .page-footer img {
+    width: 232px;
+    height: 203px;
 }
+
 #o-course-section .page-footer {
     width: 100%;
     display: flex;
     /* margin: 0 auto; */
     align-items: center;
     justify-content: space-between;
-  
+
 }
-#o-course-section .lessons{
+
+#o-course-section .lessons {
     width: 17%;
     margin-left: auto;
 }
-#o-course-section .lessons p.first-p{
+
+#o-course-section .lessons p.first-p {
     font-size: 25px;
     font-style: normal;
     font-weight: 700;
-    line-height: 130%; /* 32.5px */
+    line-height: 130%;
+    /* 32.5px */
 }
+
 /* Tablet */
-@media screen and (min-width: 992px)
- and 
- (max-width: 1279px){
-#o-course-section h1.title{
-    font-size: 32px;
-    line-height: 101.385%; /* 32.443px */
-}
-#o-course-section .main-text{
-    width: 84%;
-    font-size: 14px;
-    line-height: 150%; /* 21px */
+@media screen and (min-width: 992px) and (max-width: 1279px) {
+    #o-course-section h1.title {
+        font-size: 32px;
+        line-height: 101.385%;
+        /* 32.443px */
+    }
 
-}
-#o-course-section .right img{
-    width: 181.858px;
-height: 182.438px;
-}
-#o-course-section .little-text{
-    width: 84%;
-}
-#o-course-section .page-footer{
-    margin-left: 0;
-}
-#o-course-section .page-footer .img-box {
-    width: 134.367px;
-height: 117.571px;
-}
+    #o-course-section .main-text {
+        width: 84%;
+        font-size: 14px;
+        line-height: 150%;
+        /* 21px */
 
-#o-course-section .lessons p{
-    font-size: 11px;
-    line-height: 130%; /* 19.5px */
-}
-#o-course-section .lessons p.first-p{
-    line-height: 130%; /* 19.5px */
-    font-size: 15px;
+    }
 
+    #o-course-section .right img {
+        width: 181.858px;
+        height: 182.438px;
+    }
+
+    #o-course-section .little-text {
+        width: 84%;
+    }
+
+    #o-course-section .page-footer {
+        margin-left: 0;
+    }
+
+    #o-course-section .page-footer .img-box {
+        width: 134.367px;
+        height: 117.571px;
+    }
+
+    #o-course-section .lessons p {
+        font-size: 11px;
+        line-height: 130%;
+        /* 19.5px */
+    }
+
+    #o-course-section .lessons p.first-p {
+        line-height: 130%;
+        /* 19.5px */
+        font-size: 15px;
+
+    }
+
+    #o-course-section .lessons {
+        margin-left: 0;
+        width: 15%;
+    }
 }
-#o-course-section .lessons{
-    margin-left: 0;
-    width: 15%;
-}
-  }
 
 
 
 /* Tablet */
 /* Telefon */
-@media screen and (min-width: 320px)
-and (max-width: 991px)
- {
-  #o-course-section .course-content{
-    display: block;
-  }  
-  #o-course-section .title{
-    font-size: 26px;
-line-height: 101.385%; /* 26.36px */
+@media screen and (min-width: 320px) and (max-width: 991px) {
+    #o-course-section .course-content {
+        display: block;
+    }
 
-  }
-  #o-course-section .main-text{
-    font-size: 12px;
-line-height: 150%; /* 18px */
-  }
- #o-course-section .page-header img{
-    width: 146.315px;
-height: 146.781px;
-  }
-#o-course-section .img-box{
-    display: none;
+    #o-course-section .title {
+        font-size: 26px;
+        line-height: 101.385%;
+        /* 26.36px */
+
+    }
+
+    #o-course-section .main-text {
+        font-size: 12px;
+        line-height: 150%;
+        /* 18px */
+    }
+
+    #o-course-section .page-header img {
+        width: 146.315px;
+        height: 146.781px;
+    }
+
+    #o-course-section .img-box {
+        display: none;
+    }
+
+    #o-course-section .little-text {
+        margin-bottom: 56px;
+    }
+
+    #o-course-section .right {
+        width: 30%;
+        margin: 0 auto;
+    }
+
+    #o-course-section .left {
+        width: 100%;
+    }
+
+    #o-course-section .lessons {
+        width: 26%;
+        margin-right: 34px;
+        margin-bottom: 34px;
+        margin-left: 0;
+    }
+
+    #o-course-section .page-footer {
+        flex-wrap: wrap;
+    }
+
+    #o-course-section .lessons p {
+        font-size: 10px;
+    }
+
+    #o-course-section .lessons p.first-p {
+        font-size: 12px;
+    }
 }
-#o-course-section .little-text{
-    margin-bottom: 56px;
-}
-#o-course-section .right{
-    width: 30%;
-    margin: 0 auto;
-}
-#o-course-section .left{
-    width: 100%;
-}
-#o-course-section .lessons {
-    width: 26%;
-    margin-right: 34px;
-    margin-bottom: 34px;
-    margin-left: 0;
-}
-#o-course-section .page-footer{
-    flex-wrap: wrap;
-}
-#o-course-section .lessons p{
-    font-size: 10px;
-}
-#o-course-section .lessons p.first-p {
-    font-size: 12px;
-}
- }
+
 /* Telefon */
 
 /* End of "О курсе" Desktop CSS  Part*/
 
-.l1, .l2, .l3, .l4{
+.l1, .l2, .l3, .l4 {
     font-family: 'Roboto', sans-serif;
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.block1{
+
+.block1 {
     display: flex;
 }
-.l1, .l2, .l3{
+
+.l1, .l2, .l3 {
     list-style-type: none;
 }
-.l1 :first-child, .l2 :first-child, .l3 :first-child{
+
+.l1 :first-child, .l2 :first-child, .l3 :first-child {
     color: #1E4681;
     font-size: 25px;
 }
-.l1 :nth-child(2), .l2 :nth-child(2), .l3 :nth-child(2){
+
+.l1 :nth-child(2), .l2 :nth-child(2), .l3 :nth-child(2) {
     font-weight: 400;
     font-size: 18px;
 }
-.l1 :nth-child(2), .l2 :nth-child(2){
+
+.l1 :nth-child(2), .l2 :nth-child(2) {
     margin-top: 2%;
 }
-.l2, .l3{
+
+.l2, .l3 {
     margin-left: 110px;
 }
-.l4 li{
+
+.l4 li {
     font-size: 24px;
     padding: 0.5%;
     list-style-type: disc;
 }
-.head1, .head2{
+
+.head1, .head2 {
     font-family: 'Roboto Slab', serif;
     font-weight: 700;
 }
-.head1{
+
+.head1 {
     margin-bottom: 6.5%;
     font-size: 55px;
 }
-.head2{
+
+.head2 {
     font-size: 55px;
     margin-bottom: 3%;
     margin-top: 13%;
 }
-.format{
+
+.format {
     margin-bottom: 6.5%;
     margin-top: 12%;
     margin-left: 8%;
 }
-.what{
+
+.what {
     margin-left: 8%;
     margin-bottom: 14%;
 }
-.l1, .l2, .l3{
+
+.l1, .l2, .l3 {
     width: 20%;
 }
-.l4{
+
+.l4 {
     width: 46%;
 }
-.l4 :nth-child(3){
+
+.l4 :nth-child(3) {
     width: 89%;
 }
-@media screen and (min-width: 992px) and (max-width: 1279px){
-    .l1 :nth-child(2), .l2 :nth-child(2), .l3 :nth-child(2){
+
+@media screen and (min-width: 992px) and (max-width: 1279px) {
+    .l1 :nth-child(2), .l2 :nth-child(2), .l3 :nth-child(2) {
         font-size: 11px !important;
     }
-    .l1 :first-child, .l2 :first-child, .l3 :first-child{
+
+    .l1 :first-child, .l2 :first-child, .l3 :first-child {
         font-size: 15px !important;
     }
-    .l4 li{
+
+    .l4 li {
         font-size: 14px !important;
     }
-    .head1, .head2{
+
+    .head1, .head2 {
         font-size: 32px !important;
-        
+
     }
-    .l4{
+
+    .l4 {
         width: 34%;
     }
-    .l1 :nth-child(2){
+
+    .l1 :nth-child(2) {
         width: 62%;
     }
-    .l2 :nth-child(2){
+
+    .l2 :nth-child(2) {
         width: 76%;
     }
 }
 
 @media screen and (min-width: 320px) and (max-width: 992px) {
-    .block1{
-      display: block;
+    .block1 {
+        display: block;
     }
-    .l2, .l3{
+
+    .l2, .l3 {
         margin-left: 0%;
     }
-    .l1 :nth-child(2), .l2 :nth-child(2), .l3 :nth-child(2){
+
+    .l1 :nth-child(2), .l2 :nth-child(2), .l3 :nth-child(2) {
         font-size: 10px !important;
         width: 175px !important;
     }
-    .l4 li, .l1 :first-child, .l2 :first-child, .l3 :first-child{
-     width: 100% !important;
+
+    .l4 li, .l1 :first-child, .l2 :first-child, .l3 :first-child {
+        width: 100% !important;
         font-size: 12px !important;
     }
-    ul.l4{
+
+    ul.l4 {
         width: 100% !important;
     }
-  
-    .head1, .head2{
+
+    .head1, .head2 {
         font-size: 26px !important;
     }
-    .l2, .l3{
+
+    .l2, .l3 {
         margin-top: 4%;
     }
-    .l2 :nth-child(2){
+
+    .l2 :nth-child(2) {
         width: 97%;
     }
-   
-    .l4 :nth-child(3){
+
+    .l4 :nth-child(3) {
         width: 95%;
 
-    }}
- header.container{
+    }
+}
+
+header.container {
     max-width: 1200px;
     padding: 0 4px;
     margin: 0 auto;
 }
-.section-title p{
+
+.section-title p {
     margin-left: 4%;
 }
-.section-title{
+
+.section-title {
     font-family: 'Roboto Slab', serif;
     font-weight: bold;
     font-size: 55px;
@@ -1627,14 +1945,14 @@ height: 146.781px;
 }
 
 
-.header{
+.header {
     padding: 21px 0;
     margin-bottom: 78px;
-}   
+}
 
 
 
-.intro{
+.intro {
     margin-bottom: 173px;
 }
 
@@ -1649,12 +1967,12 @@ height: 146.781px;
 .intro-top__item {
     position: relative;
     margin-right: 40px;
-    padding-left: 30px;  
+    padding-left: 30px;
     font-size: 20px;
     line-height: 115%;
 }
 
-.intro-top__item::before{
+.intro-top__item::before {
     content: '';
     position: absolute;
     top: -5px;
@@ -1663,21 +1981,24 @@ height: 146.781px;
     height: 22px;
 }
 
-.intro-container{
- 
+.intro-container {
+
     margin-bottom: 67px;
 }
-.intro-top .second{
-    margin:  0 27px;
+
+.intro-top .second {
+    margin: 0 27px;
 }
 
-.intro-container__inner{
+.intro-container__inner {
     margin-right: 190px;
 }
-i{
+
+i {
     margin-right: 5px;
 }
-.intro-container__title{
+
+.intro-container__title {
     font-family: 'Roboto Slab', serif;
     max-width: 575px;
     font-weight: bold;
@@ -1686,13 +2007,13 @@ i{
     margin-bottom: 15px;
 }
 
-.intro-container__text{
+.intro-container__text {
     max-width: 415px;
     font-size: 20px;
     line-height: 150%;
 }
 
-.intro-container__img{
+.intro-container__img {
     margin-top: -24px;
 }
 
@@ -1704,12 +2025,14 @@ i{
     color: #FFFFFF;
     margin-left: 24%;
 }
+
 .intro-bottom__text {
     font-family: 'Roboto Slab', serif;
     font-size: 25px;
     line-height: 130%;
     margin-bottom: 5px;
 }
+
 .intro-bottom__author {
     text-align: right;
     font-size: 20px;
@@ -1717,15 +2040,18 @@ i{
 }
 
 header, section {
-	display: block;
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
+
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
-@media  (max-width: 1280px){
+
+@media (max-width: 1280px) {
     .intro-bottom {
         max-width: 486px;
         padding: 17px 20px 18px 27px;
@@ -1734,16 +2060,17 @@ ol, ul {
         color: #FFFFFF;
         margin-left: 0;
     }
-    .container{
+
+    .container {
         margin: 0 70px;
     }
 
-    .header{
+    .header {
         padding: 22px 0;
         margin-bottom: 37px;
-    }   
+    }
 
-    .logo__img{
+    .logo__img {
         width: 85px;
     }
 
@@ -1751,113 +2078,132 @@ ol, ul {
         margin-bottom: 8px;
     }
 
-    .intro-container{
+    .intro-container {
         justify-content: space-between;
     }
 
-    .intro-container__inner{
+    .intro-container__inner {
         margin-right: 0;
     }
 
-    .intro-container__title{
+    .intro-container__title {
         font-size: 58px;
     }
 
-    .intro-container__text{
+    .intro-container__text {
         font-size: 16px;
         width: 100%;
         padding-bottom: 48px;
     }
 
-    .intro-container__img{
-        width: 220px;    margin-left: 10%;
-    } 
+    .intro-container__img {
+        width: 220px;
+        margin-left: 10%;
+    }
 
 
 
 
-} 
-@media screen and (min-width : 320px) and (max-width : 508px){
+}
+
+@media screen and (min-width : 320px) and (max-width : 508px) {
     .intro-top {
         width: 250px;
         font-size: 10px;
     }
+
     #o-course-section .page-header {
-    margin-top: -72px;    
+        margin-top: -72px;
     }
-    .intro-bottom__author{
-    font-size: 14px;
-   }
-   .intro-top{
-    width: 250px;
-   }
-   .section-title {
-    margin-left: 0 !important;
 
-   }
-   .p2{
-    margin-left: 3%;
-   }
-   .intro-container__title{
-    font-size: 25px;
-   }
+    .intro-bottom__author {
+        font-size: 14px;
+    }
 
-   .contact {
-    margin: 0 0px !important;
-}
-   .intro-top .second {
-    margin: 0px 13px;
-}
+    .intro-top {
+        width: 250px;
+    }
+
+    .section-title {
+        margin-left: 0 !important;
+
+    }
+
+    .p2 {
+        margin-left: 3%;
+    }
+
+    .intro-container__title {
+        font-size: 25px;
+    }
+
+    .contact {
+        margin: 0 0px !important;
+    }
+
+    .intro-top .second {
+        margin: 0px 13px;
+    }
+
     .intro-bottom__text {
         font-family: 'Roboto Slab', serif;
-        font-size: 12px;}
+        font-size: 12px;
+    }
 }
 
-@media screen and (min-width : 509px) and (max-width : 640px){
+@media screen and (min-width : 509px) and (max-width : 640px) {
     .intro-bottom__text {
-       
-          font-size: 17px;}
-          .intro-bottom{
-            width: 67%;
-          }
-          .intro-top__list{
-            font-size: 12px;
-          }
+
+        font-size: 17px;
+    }
+
+    .intro-bottom {
+        width: 67%;
+    }
+
+    .intro-top__list {
+        font-size: 12px;
+    }
 }
-@media screen and (min-width : 992px){
-    .intro-container{
+
+@media screen and (min-width : 992px) {
+    .intro-container {
         display: flex;
     }
 }
-@media screen and (min-width : 841px) and (max-width : 991px){
-    .intro-container__img{
+
+@media screen and (min-width : 841px) and (max-width : 991px) {
+    .intro-container__img {
         margin-top: 36px;
         margin-left: 31%;
     }
-    .intro-bottom{
+
+    .intro-bottom {
         margin-left: 0 !important;
     }
- 
-}
-@media screen and (min-width : 781px) and (max-width: 840px){
 
-.intro-container{
-    display: block;
 }
-    .section-title{
+
+@media screen and (min-width : 781px) and (max-width: 840px) {
+
+    .intro-container {
+        display: block;
+    }
+
+    .section-title {
         font-size: 32px;
     }
 
-    .header{
+    .header {
         margin-bottom: 37px;
     }
 
-    .logo__img{
+    .logo__img {
         width: 73px;
     }
 
 
-    .intro{
+    .intro {
         margin-bottom: 100px;
     }
 
@@ -1865,194 +2211,205 @@ ol, ul {
         margin-bottom: 8px;
     }
 
-    .intro-top__item{
+    .intro-top__item {
         font-size: 12px;
         line-height: 115%;
         padding-left: 20px;
     }
 
-    .intro-top__item::before{
+    .intro-top__item::before {
         width: 13px;
         height: 13px;
         top: -3px;
         background-size: cover;
     }
 
-    .intro-container{
+    .intro-container {
         margin-bottom: 39px;
     }
 
-    .intro-container__inner{
+    .intro-container__inner {
         margin-right: 105px;
     }
 
-    .intro-container__title{
+    .intro-container__title {
         width: 100%;
         font-size: 46px;
         line-height: 101.38%;
     }
 
-    .intro-container__img{
+    .intro-container__img {
         width: 176px;
     }
 
-    .intro-container__text{
+    .intro-container__text {
         max-width: 256px;
         font-size: 12px;
         line-height: 150%;
     }
-.man-img{
-    text-align: center;
-}
-.intro-bottom{
-    margin: 0 auto;
-}
-    .intro-bottom{
-        max-width: 280px;    margin: 0 auto;
+
+    .man-img {
+        text-align: center;
+    }
+
+    .intro-bottom {
+        margin: 0 auto;
+    }
+
+    .intro-bottom {
+        max-width: 280px;
+        margin: 0 auto;
         padding: 11px 14px 14px;
     }
 
-    .intro-bottom__text{
+    .intro-bottom__text {
         font-size: 14px;
         line-height: 130%;
     }
 
-    .intro-bottom__author{
+    .intro-bottom__author {
         font-size: 12px;
         line-height: 130%;
     }
 
 }
-@media screen and (min-width: 641px) and (max-width: 780px){
-    .intro-container{
+
+@media screen and (min-width: 641px) and (max-width: 780px) {
+    .intro-container {
         display: block !important;
     }
-    .container{
+
+    .container {
         margin: 0 32px;
     }
 
-    .intro-container__inner{
+    .intro-container__inner {
         margin-right: 60px;
     }
 
 
 
-     .format-item{
-         margin-right: 25px;
-     }
+    .format-item {
+        margin-right: 25px;
+    }
 }
 
-@media screen and (min-width: 391px) and (max-width: 640px){
-  
-    .intro-container{
+@media screen and (min-width: 391px) and (max-width: 640px) {
+
+    .intro-container {
         display: block !important;
     }
-    .intro-container__inner{
+
+    .intro-container__inner {
         margin-right: 30px;
     }
 
-    .intro-container__title{
+    .intro-container__title {
         font-size: 28px;
     }
 
-    .intro-container__img{
+    .intro-container__img {
         width: 150px;
         margin-top: 0;
     }
 
-    .intro-top__item{
-        margin-right: 20px; font-size: 12px  !important;
+    .intro-top__item {
+        margin-right: 20px;
+        font-size: 12px !important;
     }
 
 
 
 
-   
+
 }
 
-@media screen and (min-width : 330px) 
-and (max-width: 390px){
-    intro-top__item{
+@media screen and (min-width : 330px) and (max-width: 390px) {
+    intro-top__item {
         font-size: 12px;
     }
-   
 
-    .section-title{
+
+    .section-title {
         font-size: 26px;
     }
 
- 
 
-    .header{
+
+    .header {
         padding: 36px 0;
         margin-bottom: 8px;
     }
 
-    .logo__img{
+    .logo__img {
         width: 52px;
     }
 
-    .intro{
+    .intro {
         margin-bottom: 75px;
     }
 
-    .about-top__left{
+    .about-top__left {
         margin-bottom: 0;
     }
 
-    .intro-top__item{
+    .intro-top__item {
         font-size: 12px;
         padding-left: 15px;
         margin-right: 11px;
     }
 
-    .intro-top__item::before{
+    .intro-top__item::before {
         width: 10px;
         height: 10px;
         top: 0;
     }
 
-    .intro-container{
+    .intro-container {
         flex-direction: column;
     }
 
-    .intro-container__inner{
+    .intro-container__inner {
         margin-right: 0;
     }
 
-    .intro-container__title{
+    .intro-container__title {
         font-size: 37px;
         line-height: 101.38%;
         margin-bottom: 13px;
     }
 
-    .intro-container__img{
+    .intro-container__img {
         width: 142px;
         margin-left: auto;
         margin-top: 0;
     }
 
-    .intro-container__text{
+    .intro-container__text {
         max-width: 212px;
         font-size: 10px;
     }
 
-    .intro-bottom{
+    .intro-bottom {
         max-width: 225px;
         padding: 9px 12px 9px 9px;
         margin-left: 0;
     }
 
-    .intro-bottom__text{
+    .intro-bottom__text {
         font-size: 11px;
     }
 
-    .intro-bottom__author{
+    .intro-bottom__author {
         font-size: 10px;
 
     }
-.intro-bottom{margin-left: 0;}
-    .intro-container{
+
+    .intro-bottom {
+        margin-left: 0;
+    }
+
+    .intro-container {
         display: block !important;
     }
 }
