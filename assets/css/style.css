@@ -10,7 +10,9 @@ body{
     font-family: 'Roboto Slab', serif;
 }
 /* Start of "Программа курса" Desktop CSS  Part*/
-
+#card{
+    background-color: #EFEFEF;
+}
 .all-card-section-cover{
     width: 100%;
 }
@@ -21,7 +23,7 @@ body{
 .section-title{
     margin-left: 27px;
     color: #000;
-font-family: Roboto Slab;
+font-family: 'Roboto Slab', serif;
 font-size: 55px;
 font-style: normal;
 font-weight: 700;
@@ -41,7 +43,7 @@ margin-bottom: 94px;
 }
 .course-number{
     color: #000;
-font-family: Roboto;
+font-family: 'Roboto ', sans-serif;
 font-size: 30px;
 font-style: normal;
 font-weight: 700;
@@ -52,7 +54,7 @@ margin-left: 19px;
 }
 .course-date{
     color: #000;
-font-family: Roboto;
+font-family: 'Roboto ', sans-serif;
 font-size: 25px;
 font-style: normal;
 font-weight: 400;
@@ -163,6 +165,7 @@ and
         margin: 0 9%;
     
     }
+    
    .container{
     margin: 0  48px;
    }
@@ -273,7 +276,7 @@ margin-bottom: 24px !important;
 }
 #o-course-section p{
 color: #000;
-font-family: Roboto;
+font-family: 'Roboto ', sans-serif;
 font-size: 24px;
 font-style: normal;
 font-weight: 400;
@@ -282,7 +285,7 @@ line-height: 150%; /* 36px */
 #o-course-section h1.title{
     width: 100%;
     color: #000;
-font-family: Roboto Slab;
+font-family: 'Roboto Slab', serif;
 font-size: 55px;
 font-style: normal;
 font-weight: 700;
@@ -615,6 +618,7 @@ margin-top: 180px;
         background-color: #9DC9C8;
         padding: 40px 40px 80px 40px;
     }
+    
     .hero2{
         background-color: black;
         padding: 30px 40px;
@@ -738,7 +742,6 @@ padding-bottom: 20px;
 }
 .big-div{
     background-color:#EFEFEF ;
-     width: 1440px; 
 height: 677px;
 flex-shrink: 0;
 }
@@ -853,21 +856,25 @@ flex-shrink: 0;
 .user-card-info{
     margin-left: 5px;
 }
+.big-div{
+    width: 100%;
+
 }
-@media screen and (min-width: 320px) and (max-width: 991px){
+}
+@media screen and (min-width: 320px) and (max-width: 659px){
+ 
     .p1{
         font-size: 26px;
         width: 248px;
         height: 20px;
-        margin-left: 92px;
-        margin-top: -17px;
+        margin-left: 41px !important;
         
     }
     .user-info{
         margin-left: 35px;
     }
     .p2{
-        width: 80%;
+        width: 51% !important;
         height: 239px;
         margin: 63px auto;
     }
@@ -876,7 +883,7 @@ flex-shrink: 0;
 height: 111.01px;
 flex-shrink: 0;
 
-font-size: 10px;
+font-size: 10px !important;
 font-weight: 400;
 line-height: 150%; /* 15px */
 padding-top: 20px;
@@ -887,11 +894,13 @@ height: 84px;
 flex-shrink: 0;
     }
 .name{
+    padding-top: 15px;
     width: 164.488px;
     height: 32.729px;
     flex-shrink: 0; 
     font-size: 14px;
 font-style: normal;
+line-height: 0;
 font-weight: 700;
 }
 .social{
@@ -924,9 +933,17 @@ flex-shrink: 0;
 @media screen and (min-width: 650px) and (max-width: 991px){
 .p2{
     width: 73%;
+    height: 462px;
 }
+
 .p1{
-    width: 57%;   
+    width: 70%;   
+}
+.p3{
+    margin-top:8rem ;
+}
+.all-card-big-div{
+    height: 800px;
 }
 }
 @media screen and (min-width: 320px) and (max-width: 520px){
@@ -942,6 +959,7 @@ flex-shrink: 0;
 }
 .p3{
     font-size: 9px;
+    margin-top: 9rem;
 }
 .user-card-info{
     margin-top: 49px;
@@ -993,7 +1011,7 @@ flex-shrink: 0;
 .section-title{
     margin-left: 27px;
     color: #000;
-font-family: Roboto Slab;
+font-family: 'Roboto Slab', serif;
 font-size: 55px;
 font-style: normal;
 font-weight: 700;
@@ -1013,7 +1031,7 @@ margin-bottom: 94px;
 }
 .course-number{
     color: #000;
-font-family: Roboto;
+font-family: 'Roboto ', sans-serif;
 font-size: 30px;
 font-style: normal;
 font-weight: 700;
@@ -1024,7 +1042,7 @@ margin-left: 19px;
 }
 .course-date{
     color: #000;
-font-family: Roboto;
+font-family: 'Roboto ', sans-serif;
 font-size: 25px;
 font-style: normal;
 font-weight: 400;
@@ -1049,7 +1067,69 @@ padding-bottom: 5px !important;
     }
 }
 /* End of "Программа курса" Desktop CSS  Part*/
-@media screen and (min-width : 1275px) 
+@media screen and (min-width : 320px) 
+and 
+(max-width : 649px) {
+.p2{
+    width: 80%;  
+}
+.big-div{
+    height: 460px;
+}
+.photo {
+    width: 55px;
+    height: 102px;}
+    .p3 {
+        font-size: 9px;
+        margin-top: 4rem;}
+        .p2 {
+            width: 83% !important;}
+}
+@media screen and (min-width : 650px) 
+and 
+(max-width : 659px){
+ 
+    .p1{
+        padding-bottom: 0px;
+    }
+    .all-card-big-div{
+            height: 460px;
+    } .p2{ height: 233px;  margin-top: -52px !important;
+    width:62%;}
+}
+@media screen and (min-width : 660px) 
+and 
+(max-width : 690px){
+    .p1 {
+        width: 78%;
+    }
+    .p3{
+        width: 93%;
+    }
+    .photo{
+        height: 94px;
+        width: 190px;
+    }
+    .name{
+        height: 34px;
+        font-size: 21px;
+    }
+    .user-info{
+        margin-left: -40px;
+    }
+}
+@media screen and (min-width : 691px) 
+and 
+(max-width : 1279px) {
+    .p2{
+        width: 83%;
+    }
+    .p1{
+            width: 63%;
+            padding-bottom: 67px;
+    }
+}
+@media screen and (min-width : 1280px) 
 and 
 (max-width : 1468px) {
     .centered-course-card{
@@ -1219,6 +1299,12 @@ margin-bottom: 24px !important;
 }
 
 }
+@media screen and (min-width : 1276px) {
+    .course-card .course-date{
+        width: 100%;
+    }
+    
+}
 /* End of "Программа курса" Mobile CSS  Part*/
 /* Start of "О курсе" Desktop CSS  Part*/
 
@@ -1245,7 +1331,7 @@ margin-bottom: 24px !important;
 }
 #o-course-section p{
 color: #000;
-font-family: Roboto;
+font-family: 'Roboto ', sans-serif;
 font-size: 24px;
 font-style: normal;
 font-weight: 400;
@@ -1485,10 +1571,16 @@ height: 146.781px;
     }
     .l1 :nth-child(2), .l2 :nth-child(2), .l3 :nth-child(2){
         font-size: 10px !important;
+        width: 175px !important;
     }
     .l4 li, .l1 :first-child, .l2 :first-child, .l3 :first-child{
+     width: 100% !important;
         font-size: 12px !important;
     }
+    ul.l4{
+        width: 100% !important;
+    }
+  
     .head1, .head2{
         font-size: 26px !important;
     }
@@ -1498,9 +1590,7 @@ height: 146.781px;
     .l2 :nth-child(2){
         width: 97%;
     }
-    .l4{
-        width: 34%;
-    }
+   
     .l4 :nth-child(3){
         width: 95%;
     }
