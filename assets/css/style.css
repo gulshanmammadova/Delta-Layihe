@@ -86,6 +86,7 @@ and
         margin: 0 2%;
     
     }
+   
     .course-card img{
         width: 100%;
     }
@@ -94,10 +95,10 @@ and
     width: 847px;
     }
 .course-card{
-    width: 31%;
+    width: 30%;
 }
 .course-date{
-    width: 61%;
+    width: 90% !important;
 }
 }
 @media screen and (min-width : 1219px) 
@@ -130,9 +131,10 @@ and
     .course-card img{
         width: 100%;
     }
-    .course-card {
-        width: 353px;
-    }
+  
+        .course-card {
+            width: 30% !important;}
+    
     .course-date{
         width: 65%;
     }
@@ -818,7 +820,7 @@ flex-shrink: 0;
 }
 .p3{
     font-size: 22px;
-    width: 88% !important;
+    width: 94% !important;
     margin-left: 26px;
     margin-right: 26px;
     font-family: 'Roboto', sans-serif;
@@ -855,6 +857,7 @@ flex-shrink: 0;
 }
 .user-card-info{
     margin-left: 5px;
+    margin-top: -20px;
 }
 .big-div{
     width: 100%;
@@ -1120,7 +1123,7 @@ and
 }
 @media screen and (min-width : 691px) 
 and 
-(max-width : 1279px) {
+(max-width : 1251px) {
     .p2{
         width: 83%;
     }
@@ -1128,12 +1131,23 @@ and
             width: 63%;
             padding-bottom: 67px;
     }
+  
 }
+@media screen and (min-width : 1251px) 
+and 
+(max-width : 1279px) {
+    .course-card{
+        width: 30% !important;     
+    }
+  
+}
+
 @media screen and (min-width : 1280px) 
 and 
 (max-width : 1468px) {
     .centered-course-card{
         margin: 0 2%;
+        
     
     }
     .course-card img{
@@ -1169,7 +1183,7 @@ and
     }
  
 }
-@media screen and (min-width : 1255px) 
+@media screen and (min-width : 1254px) 
 and 
 (max-width : 1275px) {
     .centered-course-card{
@@ -1256,7 +1270,7 @@ padding: 0.8px !important;
 
 @media screen and (min-width : 320px) 
 and 
-(max-width : 991px) {
+(max-width : 992px) {
     .all-card{
         flex-direction: column;
         align-items: center;
@@ -1300,19 +1314,19 @@ margin-bottom: 24px !important;
 
 }
 @media screen and (min-width : 1276px) {
-    .course-card .course-date{
-        width: 100%;
+    /* .course-card .course-date{
+        width: 80%;
     }
-    
+     */
 }
 /* End of "Программа курса" Mobile CSS  Part*/
 /* Start of "О курсе" Desktop CSS  Part*/
 
 #o-course-section .page-header{
   
-    width: 77%;
+    width: 84%;
     align-items: center;
-    margin: 0px auto;
+    margin: 0px 8%;
 }
 #o-course-section .course-content{
     display: flex;
@@ -1506,6 +1520,7 @@ height: 146.781px;
 .l4 li{
     font-size: 24px;
     padding: 0.5%;
+    list-style-type: disc;
 }
 .head1, .head2{
     font-family: 'Roboto Slab', serif;
@@ -1522,7 +1537,7 @@ height: 146.781px;
 }
 .format{
     margin-bottom: 6.5%;
-    margin-top: 6%;
+    margin-top: 12%;
     margin-left: 8%;
 }
 .what{
@@ -1596,12 +1611,14 @@ height: 146.781px;
         width: 95%;
 
     }}
-.container{
+ header.container{
     max-width: 1200px;
     padding: 0 4px;
     margin: 0 auto;
 }
-
+.section-title p{
+    margin-left: 4%;
+}
 .section-title{
     font-family: 'Roboto Slab', serif;
     font-weight: bold;
@@ -1647,12 +1664,13 @@ height: 146.781px;
 }
 
 .intro-container{
-    display: flex;
+ 
     margin-bottom: 67px;
 }
 .intro-top .second{
     margin:  0 27px;
 }
+
 .intro-container__inner{
     margin-right: 190px;
 }
@@ -1707,10 +1725,17 @@ body {
 ol, ul {
 	list-style: none;
 }
-@media (max-width: 1280px){
-    
+@media  (max-width: 1280px){
+    .intro-bottom {
+        max-width: 486px;
+        padding: 17px 20px 18px 27px;
+        background: #1E4681;
+        border-radius: 5px;
+        color: #FFFFFF;
+        margin-left: 0;
+    }
     .container{
-        padding: 0 70px;
+        margin: 0 70px;
     }
 
     .header{
@@ -1735,25 +1760,90 @@ ol, ul {
     }
 
     .intro-container__title{
-        font-size: 60px;
+        font-size: 58px;
     }
 
     .intro-container__text{
         font-size: 16px;
+        width: 100%;
+        padding-bottom: 48px;
     }
 
     .intro-container__img{
-        width: 220px;
+        width: 220px;    margin-left: 10%;
     } 
 
 
 
 
 } 
+@media screen and (min-width : 320px) and (max-width : 508px){
+    .intro-top {
+        width: 250px;
+        font-size: 10px;
+    }
+    #o-course-section .page-header {
+    margin-top: -72px;    
+    }
+    .intro-bottom__author{
+    font-size: 14px;
+   }
+   .intro-top{
+    width: 250px;
+   }
+   .section-title {
+    margin-left: 0 !important;
 
-@media (max-width: 840px){
+   }
+   .p2{
+    margin-left: 3%;
+   }
+   .intro-container__title{
+    font-size: 25px;
+   }
 
+   .contact {
+    margin: 0 0px !important;
+}
+   .intro-top .second {
+    margin: 0px 13px;
+}
+    .intro-bottom__text {
+        font-family: 'Roboto Slab', serif;
+        font-size: 12px;}
+}
 
+@media screen and (min-width : 509px) and (max-width : 640px){
+    .intro-bottom__text {
+       
+          font-size: 17px;}
+          .intro-bottom{
+            width: 67%;
+          }
+          .intro-top__list{
+            font-size: 12px;
+          }
+}
+@media screen and (min-width : 992px){
+    .intro-container{
+        display: flex;
+    }
+}
+@media screen and (min-width : 841px) and (max-width : 991px){
+    .intro-container__img{
+        margin-top: 36px;
+        margin-left: 31%;
+    }
+    .intro-bottom{
+        margin-left: 0 !important;
+    }
+ 
+}
+@media screen and (min-width : 781px) and (max-width: 840px){
+
+.intro-container{
+    display: block;
+}
     .section-title{
         font-size: 32px;
     }
@@ -1797,7 +1887,7 @@ ol, ul {
     }
 
     .intro-container__title{
-        max-width: 340px;
+        width: 100%;
         font-size: 46px;
         line-height: 101.38%;
     }
@@ -1811,9 +1901,14 @@ ol, ul {
         font-size: 12px;
         line-height: 150%;
     }
-
+.man-img{
+    text-align: center;
+}
+.intro-bottom{
+    margin: 0 auto;
+}
     .intro-bottom{
-        max-width: 280px;
+        max-width: 280px;    margin: 0 auto;
         padding: 11px 14px 14px;
     }
 
@@ -1829,8 +1924,11 @@ ol, ul {
 
 }
 @media screen and (min-width: 641px) and (max-width: 780px){
+    .intro-container{
+        display: block !important;
+    }
     .container{
-        padding: 0 32px;
+        margin: 0 32px;
     }
 
     .intro-container__inner{
@@ -1845,7 +1943,10 @@ ol, ul {
 }
 
 @media screen and (min-width: 391px) and (max-width: 640px){
-
+  
+    .intro-container{
+        display: block !important;
+    }
     .intro-container__inner{
         margin-right: 30px;
     }
@@ -1860,7 +1961,7 @@ ol, ul {
     }
 
     .intro-top__item{
-        margin-right: 20px;
+        margin-right: 20px; font-size: 12px  !important;
     }
 
 
@@ -1871,7 +1972,9 @@ ol, ul {
 
 @media screen and (min-width : 330px) 
 and (max-width: 390px){
-    
+    intro-top__item{
+        font-size: 12px;
+    }
    
 
     .section-title{
@@ -1898,7 +2001,7 @@ and (max-width: 390px){
     }
 
     .intro-top__item{
-        font-size: 10px;
+        font-size: 12px;
         padding-left: 15px;
         margin-right: 11px;
     }
@@ -1948,5 +2051,8 @@ and (max-width: 390px){
         font-size: 10px;
 
     }
-
+.intro-bottom{margin-left: 0;}
+    .intro-container{
+        display: block !important;
+    }
 }
