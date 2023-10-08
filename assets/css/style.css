@@ -416,3 +416,371 @@ height: 146.781px;
 /* Telefon */
 
 /* End of "О курсе" Desktop CSS  Part*/
+
+.container{
+    max-width: 1200px;
+    padding: 0 4px;
+    margin: 0 auto;
+}
+
+.section-title{
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 101.38%;
+}
+
+
+.header{
+    padding: 21px 0;
+    margin-bottom: 78px;
+}   
+
+
+
+.intro{
+    margin-bottom: 173px;
+}
+
+.intro-top {
+    margin-bottom: 39px;
+}
+
+.intro-top__list {
+    display: flex;
+}
+
+.intro-top__item {
+    position: relative;
+    margin-right: 40px;
+    padding-left: 30px;  
+    font-size: 20px;
+    line-height: 115%;
+}
+
+.intro-top__item::before{
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: 0;
+    width: 22px;
+    height: 22px;
+}
+
+.intro-top__item_1::before{
+    background: url('../images/www.svg') no-repeat;
+}
+
+.intro-top__item_2::before{
+    background: url('../images/clock.svg') no-repeat;
+}
+
+.intro-top__item_3::before{
+    background: url('../images/calendar.svg') no-repeat;
+}
+
+.intro-container{
+    display: flex;
+    margin-bottom: 67px;
+}
+
+.intro-container__inner{
+    margin-right: 190px;
+}
+
+.intro-container__title{
+    font-family: 'Roboto Slab', serif;
+    max-width: 575px;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 101.38%;
+    margin-bottom: 15px;
+}
+
+.intro-container__text{
+    max-width: 415px;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.intro-container__img{
+    margin-top: -24px;
+}
+
+.intro-bottom {
+    max-width: 486px;
+    padding: 17px 20px 18px 27px;
+    background: #1E4681;
+    border-radius: 5px;
+    color: #FFFFFF;
+    margin-left: 24%;
+}
+.intro-bottom__text {
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+    line-height: 130%;
+    margin-bottom: 5px;
+}
+.intro-bottom__author {
+    text-align: right;
+    font-size: 20px;
+    line-height: 130%;
+}
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+header, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+@media (max-width: 1280px){
+    
+    .container{
+        padding: 0 70px;
+    }
+
+    .header{
+        padding: 22px 0;
+        margin-bottom: 37px;
+    }   
+
+    .logo__img{
+        width: 85px;
+    }
+
+    .intro-top {
+        margin-bottom: 8px;
+    }
+
+    .intro-container{
+        justify-content: space-between;
+    }
+
+    .intro-container__inner{
+        margin-right: 0;
+    }
+
+    .intro-container__title{
+        font-size: 60px;
+    }
+
+    .intro-container__text{
+        font-size: 16px;
+    }
+
+    .intro-container__img{
+        width: 220px;
+    } 
+
+
+
+
+} 
+
+@media (max-width: 840px){
+
+
+    .section-title{
+        font-size: 32px;
+    }
+
+    .header{
+        margin-bottom: 37px;
+    }
+
+    .logo__img{
+        width: 73px;
+    }
+
+
+    .intro{
+        margin-bottom: 100px;
+    }
+
+    .intro-top {
+        margin-bottom: 8px;
+    }
+
+    .intro-top__item{
+        font-size: 12px;
+        line-height: 115%;
+        padding-left: 20px;
+    }
+
+    .intro-top__item::before{
+        width: 13px;
+        height: 13px;
+        top: -3px;
+        background-size: cover;
+    }
+
+    .intro-container{
+        margin-bottom: 39px;
+    }
+
+    .intro-container__inner{
+        margin-right: 105px;
+    }
+
+    .intro-container__title{
+        max-width: 340px;
+        font-size: 46px;
+        line-height: 101.38%;
+    }
+
+    .intro-container__img{
+        width: 176px;
+    }
+
+    .intro-container__text{
+        max-width: 256px;
+        font-size: 12px;
+        line-height: 150%;
+    }
+
+    .intro-bottom{
+        max-width: 280px;
+        padding: 11px 14px 14px;
+    }
+
+    .intro-bottom__text{
+        font-size: 14px;
+        line-height: 130%;
+    }
+
+    .intro-bottom__author{
+        font-size: 12px;
+        line-height: 130%;
+    }
+
+}
+@media (max-width: 780px){
+    .container{
+        padding: 0 32px;
+    }
+
+    .intro-container__inner{
+        margin-right: 60px;
+    }
+
+
+
+     .format-item{
+         margin-right: 25px;
+     }
+}
+
+@media (max-width: 640px){
+
+    .intro-container__inner{
+        margin-right: 30px;
+    }
+
+    .intro-container__title{
+        font-size: 28px;
+    }
+
+    .intro-container__img{
+        width: 150px;
+        margin-top: 0;
+    }
+
+    .intro-top__item{
+        margin-right: 20px;
+    }
+
+
+
+
+   
+}
+
+@media (max-width: 390px){
+    
+   
+
+    .section-title{
+        font-size: 26px;
+    }
+
+ 
+
+    .header{
+        padding: 36px 0;
+        margin-bottom: 8px;
+    }
+
+    .logo__img{
+        width: 52px;
+    }
+
+    .intro{
+        margin-bottom: 75px;
+    }
+
+    .about-top__left{
+        margin-bottom: 0;
+    }
+
+    .intro-top__item{
+        font-size: 10px;
+        padding-left: 15px;
+        margin-right: 11px;
+    }
+
+    .intro-top__item::before{
+        width: 10px;
+        height: 10px;
+        top: 0;
+    }
+
+    .intro-container{
+        flex-direction: column;
+    }
+
+    .intro-container__inner{
+        margin-right: 0;
+    }
+
+    .intro-container__title{
+        font-size: 37px;
+        line-height: 101.38%;
+        margin-bottom: 13px;
+    }
+
+    .intro-container__img{
+        width: 142px;
+        margin-left: auto;
+        margin-top: 0;
+    }
+
+    .intro-container__text{
+        max-width: 212px;
+        font-size: 10px;
+    }
+
+    .intro-bottom{
+        max-width: 225px;
+        padding: 9px 12px 9px 9px;
+        margin-left: 0;
+    }
+
+    .intro-bottom__text{
+        font-size: 11px;
+    }
+
+    .intro-bottom__author{
+        font-size: 10px;
+    }
+
+}
